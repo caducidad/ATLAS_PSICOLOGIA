@@ -1,0 +1,25 @@
+{
+  "version": "0.1",
+  "actualizado": "2026-10-08",
+  "descripcion": "La fundación de la psicología como ciencia, 1879 – c. 1913",
+  "prefijoRelaciones": "fun",
+  "nodos": [
+    {
+      "id": "contexto.fundacion",
+      "tipo": "contexto",
+      "nombre": "La fundación",
+      "horquilla": {
+        "inicio": 1879,
+        "fin": 1913
+      },
+      "lugar": "Alemania y Estados Unidos, con focos en Austria, Rusia y Francia",
+      "tematicas": [
+        "tematica.metodos",
+        "tematica.aprendizaje",
+        "tematica.memoria"
+      ],
+      "resumen": "La psicología se separa de la filosofía y de la fisiología como ciencia propia. En 1879 el fisiólogo y filósofo alemán Wilhelm Wundt abre en la Universidad de Leipzig el primer laboratorio dedicado a ella, y en pocas décadas aparecen las primeras leyes de la memoria y del aprendizaje, los primeros tests de inteligencia y el [[escuela.psicoanalisis|psicoanálisis]]."
+    }
+  ],
+  "relaciones": []
+}

@@ -6,7 +6,7 @@ Mapa interactivo de la historia de la psicología. Autores, escuelas, conceptos,
 
 Forma parte de la colección **Atlas**, junto al [Atlas de la Filosofía](https://github.com/caducidad/ATLAS_FILOSOFIA). Lo común a toda la colección (esquema, validador, motor de la app y reglas de los puentes entre atlas) vive en [ATLAS_NUCLEO](https://github.com/caducidad/ATLAS_NUCLEO).
 
-> Estado: en diseño. El repositorio contiene la propuesta de contenido del piloto. Los datos empezarán cuando el núcleo publique el esquema base.
+> Estado: en desarrollo. Hay propuesta de contenido del piloto, configuración del atlas y datos estructurales (14 temáticas, 12 escuelas y 5 periodos), que pasan el validador del núcleo sin errores. Las fichas de autores y experimentos llegan con la fase 1 del piloto.
 
 ## Qué tendrá de propio
 
@@ -19,8 +19,25 @@ Forma parte de la colección **Atlas**, junto al [Atlas de la Filosofía](https:
 ## Estructura del repositorio
 
 ```
+atlas.json                  Configuración del atlas y extensiones del esquema base
+datos/
+  tematicas.json            Las 14 temáticas
+  escuelas.json             Escuelas y corrientes (carriles de la línea del tiempo)
+  precursores.json          c. 1800 – 1879
+  fundacion.json            1879 – c. 1913
+  grandes-escuelas.json     c. 1913 – c. 1956
+  revolucion-cognitiva.json c. 1956 – c. 1980
+  contemporanea.json        c. 1980 – hoy
 docs/
-  piloto.md    Propuesta de contenido del piloto: periodos, temáticas, escuelas, autores y experimentos
+  piloto.md                 Contenido del piloto y decisiones tomadas
+```
+
+## Validar los datos
+
+Con el repositorio [ATLAS_NUCLEO](https://github.com/caducidad/ATLAS_NUCLEO) descargado al lado:
+
+```
+python3 ../ATLAS_NUCLEO/herramientas/validar.py .
 ```
 
 ## Licencias

@@ -1,0 +1,229 @@
+{
+  "version": "0.1",
+  "actualizado": "2026-10-08",
+  "descripcion": "Escuelas y corrientes del Atlas de la Psicología; atraviesan varios periodos",
+  "prefijoRelaciones": "esc",
+  "nodos": [
+    {
+      "id": "escuela.estructuralismo",
+      "tipo": "escuela",
+      "nombre": "Estructuralismo",
+      "naturaleza": "rotulo_historiografico",
+      "contextos": [
+        "contexto.fundacion"
+      ],
+      "tematicas": [
+        "tematica.percepcion",
+        "tematica.atencion_conciencia",
+        "tematica.metodos"
+      ],
+      "resumen": "Programa que quiso descomponer la experiencia consciente en sus elementos más simples (sensaciones, imágenes y sentimientos) mediante una introspección entrenada en el laboratorio. El nombre lo dio a su propio programa el psicólogo británico Edward Titchener, que trabajó en Estados Unidos; aplicarlo también a su maestro alemán Wilhelm Wundt simplifica el pensamiento de este."
+    },
+    {
+      "id": "escuela.funcionalismo",
+      "tipo": "escuela",
+      "nombre": "Funcionalismo",
+      "naturaleza": "rotulo_historiografico",
+      "contextos": [
+        "contexto.fundacion"
+      ],
+      "tematicas": [
+        "tematica.emocion_motivacion",
+        "tematica.aprendizaje",
+        "tematica.atencion_conciencia"
+      ],
+      "resumen": "Corriente estadounidense que se preguntó para qué sirve la mente, más que de qué está hecha, bajo la influencia de la teoría de la evolución del naturalista británico Charles Darwin. Se asocia al psicólogo y filósofo William James y a la Universidad de Chicago, con John Dewey y James Angell. Fue más un clima intelectual que una escuela organizada."
+    },
+    {
+      "id": "escuela.tradicion_psicodinamica",
+      "tipo": "escuela",
+      "nombre": "Tradición psicodinámica",
+      "alias": [
+        "psicodinámica",
+        "psicología profunda"
+      ],
+      "naturaleza": "rotulo_historiografico",
+      "contextos": [
+        "contexto.fundacion",
+        "contexto.grandes_escuelas",
+        "contexto.revolucion_cognitiva"
+      ],
+      "tematicas": [
+        "tematica.personalidad",
+        "tematica.psicopatologia",
+        "tematica.psicoterapia"
+      ],
+      "resumen": "Nombre que se da al conjunto de corrientes que explican la conducta por fuerzas psíquicas en conflicto, en buena parte inconscientes. Arranca con el [[escuela.psicoanalisis|psicoanálisis]] del neurólogo vienés Sigmund Freud e incluye las escuelas que se separaron de él, como las del psiquiatra suizo Carl Gustav Jung y el médico vienés Alfred Adler."
+    },
+    {
+      "id": "escuela.psicoanalisis",
+      "tipo": "escuela",
+      "nombre": "Psicoanálisis",
+      "naturaleza": "real",
+      "contextos": [
+        "contexto.fundacion",
+        "contexto.grandes_escuelas",
+        "contexto.revolucion_cognitiva"
+      ],
+      "tematicas": [
+        "tematica.personalidad",
+        "tematica.psicopatologia",
+        "tematica.psicoterapia"
+      ],
+      "escuelas": [
+        "escuela.tradicion_psicodinamica"
+      ],
+      "resumen": "Teoría de la mente y método de tratamiento creados por el neurólogo vienés Sigmund Freud a finales del siglo XIX. Sostiene que deseos y recuerdos inconscientes, a menudo reprimidos, influyen en la conducta, y que hablar de ellos puede hacerlos conscientes. Desde 1910 tiene una organización propia, la Asociación Psicoanalítica Internacional."
+    },
+    {
+      "id": "escuela.psicologia_analitica",
+      "tipo": "escuela",
+      "nombre": "Psicología analítica",
+      "alias": [
+        "psicología junguiana"
+      ],
+      "naturaleza": "real",
+      "contextos": [
+        "contexto.grandes_escuelas"
+      ],
+      "tematicas": [
+        "tematica.personalidad",
+        "tematica.psicoterapia"
+      ],
+      "escuelas": [
+        "escuela.tradicion_psicodinamica"
+      ],
+      "resumen": "Escuela de la [[escuela.tradicion_psicodinamica|tradición psicodinámica]] fundada por el psiquiatra suizo Carl Gustav Jung tras su ruptura con Sigmund Freud, hacia 1913. Añade al inconsciente de cada persona un inconsciente colectivo, común a todos los seres humanos y poblado de arquetipos."
+    },
+    {
+      "id": "escuela.psicologia_individual",
+      "tipo": "escuela",
+      "nombre": "Psicología individual",
+      "alias": [
+        "psicología adleriana"
+      ],
+      "naturaleza": "real",
+      "contextos": [
+        "contexto.grandes_escuelas"
+      ],
+      "tematicas": [
+        "tematica.personalidad",
+        "tematica.psicoterapia"
+      ],
+      "escuelas": [
+        "escuela.tradicion_psicodinamica"
+      ],
+      "resumen": "Escuela de la [[escuela.tradicion_psicodinamica|tradición psicodinámica]] fundada por el médico vienés Alfred Adler tras separarse de Sigmund Freud en 1911. Pone en el centro el afán de superar los sentimientos de inferioridad y el interés por la comunidad, más que la sexualidad."
+    },
+    {
+      "id": "escuela.conductismo",
+      "tipo": "escuela",
+      "nombre": "Conductismo",
+      "alias": [
+        "behaviorismo",
+        "neoconductismo"
+      ],
+      "naturaleza": "real",
+      "contextos": [
+        "contexto.grandes_escuelas",
+        "contexto.revolucion_cognitiva"
+      ],
+      "tematicas": [
+        "tematica.aprendizaje",
+        "tematica.metodos"
+      ],
+      "resumen": "Corriente que propuso estudiar solo la conducta observable, sin recurrir a la conciencia ni a la introspección. La lanzó el psicólogo estadounidense John B. Watson en 1913 y la continuó el neoconductismo de B. F. Skinner, Edward Tolman y Clark Hull. Dominó la psicología académica estadounidense hasta los años cincuenta."
+    },
+    {
+      "id": "escuela.gestalt",
+      "tipo": "escuela",
+      "nombre": "Gestalt",
+      "alias": [
+        "psicología de la forma",
+        "Gestaltpsychologie"
+      ],
+      "naturaleza": "real",
+      "contextos": [
+        "contexto.grandes_escuelas",
+        "contexto.fundacion"
+      ],
+      "tematicas": [
+        "tematica.percepcion",
+        "tematica.pensamiento"
+      ],
+      "resumen": "Escuela alemana iniciada hacia 1912 por Max Wertheimer, Wolfgang Köhler y Kurt Koffka. Sostiene que percibimos totalidades organizadas y no sumas de sensaciones sueltas: el todo es distinto de la suma de sus partes. Su centro fue el Instituto de Psicología de Berlín, hasta que la persecución nazi dispersó a sus miembros."
+    },
+    {
+      "id": "escuela.psicologia_sociocultural",
+      "tipo": "escuela",
+      "nombre": "Psicología sociocultural",
+      "alias": [
+        "psicología histórico-cultural"
+      ],
+      "naturaleza": "rotulo_historiografico",
+      "contextos": [
+        "contexto.grandes_escuelas"
+      ],
+      "tematicas": [
+        "tematica.desarrollo",
+        "tematica.pensamiento",
+        "tematica.aprendizaje"
+      ],
+      "resumen": "Nombre que se da a la línea abierta por el psicólogo soviético Lev Vygotski, para quien las funciones mentales superiores, como el lenguaje o la memoria voluntaria, se forman en la relación con los demás y con herramientas culturales."
+    },
+    {
+      "id": "escuela.humanismo",
+      "tipo": "escuela",
+      "nombre": "Psicología humanista",
+      "alias": [
+        "humanismo",
+        "tercera fuerza"
+      ],
+      "naturaleza": "real",
+      "contextos": [
+        "contexto.revolucion_cognitiva"
+      ],
+      "tematicas": [
+        "tematica.personalidad",
+        "tematica.emocion_motivacion",
+        "tematica.psicoterapia"
+      ],
+      "resumen": "Corriente que se presentó en los años cincuenta y sesenta como «tercera fuerza» frente al [[escuela.conductismo|conductismo]] y al [[escuela.psicoanalisis|psicoanálisis]]. Pone en el centro la experiencia de la persona, su libertad y su tendencia a crecer. Sus figuras principales son los psicólogos estadounidenses Abraham Maslow y Carl Rogers."
+    },
+    {
+      "id": "escuela.cognitivismo",
+      "tipo": "escuela",
+      "nombre": "Cognitivismo",
+      "alias": [
+        "psicología cognitiva"
+      ],
+      "naturaleza": "rotulo_historiografico",
+      "contextos": [
+        "contexto.revolucion_cognitiva",
+        "contexto.contemporanea"
+      ],
+      "tematicas": [
+        "tematica.pensamiento",
+        "tematica.memoria",
+        "tematica.atencion_conciencia"
+      ],
+      "resumen": "Nombre que se da al enfoque que, desde mediados de los años cincuenta, volvió a estudiar los procesos mentales (atención, memoria, lenguaje, razonamiento) como procesamiento de información, a menudo con el ordenador como modelo. Se asocia a los psicólogos George Miller, Ulric Neisser y Jerome Bruner y al investigador en inteligencia artificial Herbert Simon."
+    },
+    {
+      "id": "escuela.neurociencia_cognitiva",
+      "tipo": "escuela",
+      "nombre": "Neurociencia cognitiva",
+      "naturaleza": "rotulo_historiografico",
+      "contextos": [
+        "contexto.contemporanea"
+      ],
+      "tematicas": [
+        "tematica.psicobiologia",
+        "tematica.memoria",
+        "tematica.atencion_conciencia"
+      ],
+      "resumen": "Campo que estudia cómo el cerebro produce los procesos mentales, uniendo la [[escuela.cognitivismo|psicología cognitiva]] con la neurociencia. El nombre surgió a finales de los años setenta y el campo creció con las técnicas de imagen cerebral de las décadas siguientes."
+    }
+  ],
+  "relaciones": []
+}

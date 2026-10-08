@@ -1,0 +1,152 @@
+{
+  "atlas": "psicologia",
+  "nombre": "Atlas de la Psicología",
+  "version": "0.1",
+  "nucleo": "0.1",
+  "descripcion": "Historia de la psicología como red navegable, con los experimentos como protagonistas y el estado de la evidencia a la vista.",
+  "archivos": [
+    "datos/tematicas.json",
+    "datos/escuelas.json",
+    "datos/precursores.json",
+    "datos/fundacion.json",
+    "datos/grandes-escuelas.json",
+    "datos/revolucion-cognitiva.json",
+    "datos/contemporanea.json"
+  ],
+  "carriles": {
+    "campo": "escuelas",
+    "regla": "primero",
+    "sinValor": "otros"
+  },
+  "camposPropios": {
+    "tipoEstudio": {
+      "descripcion": "Clase de estudio que recoge una ficha de tipo experimento.",
+      "valores": [
+        "experimento",
+        "cuasiexperimento",
+        "estudio_de_caso",
+        "estudio_observacional",
+        "estudio_longitudinal",
+        "replicacion",
+        "metaanalisis"
+      ],
+      "etiquetas": {
+        "experimento": "Experimento",
+        "cuasiexperimento": "Cuasiexperimento",
+        "estudio_de_caso": "Estudio de caso",
+        "estudio_observacional": "Estudio observacional",
+        "estudio_longitudinal": "Estudio longitudinal",
+        "replicacion": "Réplica",
+        "metaanalisis": "Metaanálisis"
+      },
+      "obligatorioEn": [
+        "experimento"
+      ]
+    },
+    "notaEvidencia": {
+      "descripcion": "Desde cuándo y por qué el nodo tiene su estadoEvidencia, con la fuente que lo justifica.",
+      "obligatorioEn": [
+        "experimento",
+        "tesis"
+      ]
+    }
+  },
+  "listas": {
+    "investigadores": "autor"
+  },
+  "obligatorios": {
+    "autor": [
+      "circulo"
+    ],
+    "tesis": [
+      "estadoEvidencia"
+    ]
+  },
+  "obligatoriosSi": [
+    {
+      "tipo": "autor",
+      "si": {
+        "circulo": 1
+      },
+      "campos": [
+        "profundizacion",
+        "anecdotas"
+      ]
+    }
+  ],
+  "tiposNodo": {
+    "experimento": {
+      "obligatorios": [
+        "fechas",
+        "investigadores",
+        "diseno",
+        "resultado",
+        "estadoEvidencia"
+      ]
+    }
+  },
+  "relaciones": {
+    "pone_a_prueba": {
+      "directo": "pone a prueba",
+      "inverso": "es puesta a prueba por",
+      "simetrica": false,
+      "entre": [
+        [
+          [
+            "experimento"
+          ],
+          [
+            "tesis",
+            "concepto"
+          ]
+        ]
+      ],
+      "obligatorios": [
+        "sentido"
+      ],
+      "valores": {
+        "sentido": [
+          "apoya",
+          "contradice",
+          "mixto"
+        ]
+      }
+    },
+    "replica": {
+      "directo": "replica",
+      "inverso": "es replicado por",
+      "simetrica": false,
+      "entre": [
+        [
+          [
+            "experimento"
+          ],
+          [
+            "experimento"
+          ]
+        ]
+      ],
+      "obligatorios": [
+        "resultadoReplica"
+      ],
+      "valores": {
+        "resultadoReplica": [
+          "exito",
+          "parcial",
+          "fallo"
+        ]
+      }
+    }
+  },
+  "lentes": {
+    "evidencia": {
+      "nombre": "La evidencia",
+      "descripcion": "Solo los experimentos, lo que ponen a prueba y sus réplicas, coloreados según lo que sabemos hoy.",
+      "relaciones": [
+        "pone_a_prueba",
+        "replica"
+      ],
+      "colorearPor": "estadoEvidencia"
+    }
+  }
+}

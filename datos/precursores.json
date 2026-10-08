@@ -1,0 +1,25 @@
+{
+  "version": "0.1",
+  "actualizado": "2026-10-08",
+  "descripcion": "Precursores de la psicología científica, c. 1800 – 1879",
+  "prefijoRelaciones": "pre",
+  "nodos": [
+    {
+      "id": "contexto.precursores",
+      "tipo": "contexto",
+      "nombre": "Los precursores",
+      "horquilla": {
+        "inicio": 1800,
+        "fin": 1879
+      },
+      "lugar": "Sobre todo Alemania, Francia y Gran Bretaña",
+      "tematicas": [
+        "tematica.psicobiologia",
+        "tematica.percepcion",
+        "tematica.personalidad"
+      ],
+      "resumen": "Antes de existir como disciplina, la psicología se preparó en la fisiología y la medicina del siglo XIX: se midió la relación entre los estímulos y las sensaciones, se buscaron funciones mentales en zonas concretas del cerebro, y la teoría de la evolución del naturalista británico Charles Darwin presentó la mente como una adaptación. Sus raíces filosóficas, mucho más antiguas, están en el Atlas de la Filosofía."
+    }
+  ],
+  "relaciones": []
+}

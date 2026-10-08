@@ -1,0 +1,93 @@
+{
+  "version": "0.1",
+  "actualizado": "2026-10-08",
+  "descripcion": "Las 14 temáticas del Atlas de la Psicología",
+  "prefijoRelaciones": "tem",
+  "nodos": [
+    {
+      "id": "tematica.metodos",
+      "tipo": "tematica",
+      "nombre": "Métodos de investigación",
+      "resumen": "Estudia cómo investiga la psicología: el experimento, la observación, el estudio de caso, los tests, la réplica de estudios anteriores y la síntesis de muchos estudios a la vez."
+    },
+    {
+      "id": "tematica.psicobiologia",
+      "tipo": "tematica",
+      "nombre": "Psicobiología",
+      "resumen": "Estudia las bases biológicas de la mente y la conducta: el cerebro, el sistema nervioso, las hormonas y la herencia."
+    },
+    {
+      "id": "tematica.percepcion",
+      "tipo": "tematica",
+      "nombre": "Sensación y percepción",
+      "resumen": "Estudia cómo captamos los estímulos del entorno y cómo los organizamos en una imagen coherente del mundo."
+    },
+    {
+      "id": "tematica.atencion_conciencia",
+      "tipo": "tematica",
+      "nombre": "Atención y conciencia",
+      "resumen": "Estudia cómo seleccionamos una parte de todo lo que nos llega y qué es la experiencia consciente."
+    },
+    {
+      "id": "tematica.aprendizaje",
+      "tipo": "tematica",
+      "nombre": "Aprendizaje",
+      "resumen": "Estudia cómo la experiencia cambia de forma duradera la conducta y el conocimiento."
+    },
+    {
+      "id": "tematica.memoria",
+      "tipo": "tematica",
+      "nombre": "Memoria",
+      "resumen": "Estudia cómo se guarda, se recupera y se olvida lo vivido y lo aprendido, y por qué el recuerdo no es una copia fiel."
+    },
+    {
+      "id": "tematica.pensamiento",
+      "tipo": "tematica",
+      "nombre": "Pensamiento, lenguaje y decisión",
+      "resumen": "Estudia el razonamiento, la resolución de problemas, el lenguaje y la manera en que elegimos, con sus atajos y sus sesgos."
+    },
+    {
+      "id": "tematica.inteligencia",
+      "tipo": "tematica",
+      "nombre": "Inteligencia",
+      "resumen": "Estudia qué es la inteligencia, si es una sola capacidad o varias, y cómo se mide."
+    },
+    {
+      "id": "tematica.emocion_motivacion",
+      "tipo": "tematica",
+      "nombre": "Emoción y motivación",
+      "resumen": "Estudia qué nos mueve a actuar y qué son las emociones: cómo surgen y para qué sirven."
+    },
+    {
+      "id": "tematica.desarrollo",
+      "tipo": "tematica",
+      "nombre": "Desarrollo",
+      "resumen": "Estudia cómo cambian la mente y la conducta a lo largo de la vida, desde el nacimiento hasta la vejez."
+    },
+    {
+      "id": "tematica.personalidad",
+      "tipo": "tematica",
+      "nombre": "Personalidad y diferencias individuales",
+      "resumen": "Estudia en qué nos diferenciamos unas personas de otras y qué rasgos se mantienen con el tiempo."
+    },
+    {
+      "id": "tematica.psicologia_social",
+      "tipo": "tematica",
+      "nombre": "Psicología social",
+      "resumen": "Estudia cómo la presencia real o imaginada de los demás influye en lo que pensamos, sentimos y hacemos."
+    },
+    {
+      "id": "tematica.psicopatologia",
+      "tipo": "tematica",
+      "nombre": "Psicopatología",
+      "resumen": "Estudia el sufrimiento psíquico y los trastornos mentales, y cómo se han definido y explicado a lo largo de la historia. El Atlas lo trata desde la historia de las ideas, no como guía clínica."
+    },
+    {
+      "id": "tematica.psicoterapia",
+      "tipo": "tematica",
+      "nombre": "Psicoterapia e intervención",
+      "resumen": "Estudia los tratamientos psicológicos que ha propuesto cada corriente y las pruebas sobre su eficacia. El Atlas lo trata desde la historia de las ideas, no como guía clínica."
+    }
+  ],
+  "relaciones": []
+}

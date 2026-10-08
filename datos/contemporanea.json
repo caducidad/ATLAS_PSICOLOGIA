@@ -1,0 +1,25 @@
+{
+  "version": "0.1",
+  "actualizado": "2026-10-08",
+  "descripcion": "Psicología contemporánea, c. 1980 – hoy",
+  "prefijoRelaciones": "con",
+  "nodos": [
+    {
+      "id": "contexto.contemporanea",
+      "tipo": "contexto",
+      "nombre": "Psicología contemporánea",
+      "horquilla": {
+        "inicio": 1980,
+        "fin": 2026
+      },
+      "lugar": "Internacional",
+      "tematicas": [
+        "tematica.psicobiologia",
+        "tematica.metodos",
+        "tematica.emocion_motivacion"
+      ],
+      "resumen": "Desde los años ochenta, las técnicas de imagen cerebral impulsan la [[escuela.neurociencia_cognitiva|neurociencia cognitiva]], y surgen otros enfoques, como la psicología evolucionista y la psicología positiva. Desde comienzos de los años 2010 la disciplina vive la crisis de replicación: al repetir con rigor muchos estudios célebres, una parte importante no da el mismo resultado, lo que ha impulsado reformas como el registro previo de los estudios y la ciencia abierta."
+    }
+  ],
+  "relaciones": []
+}

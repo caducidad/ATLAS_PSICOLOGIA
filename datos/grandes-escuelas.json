@@ -1,0 +1,25 @@
+{
+  "version": "0.1",
+  "actualizado": "2026-10-08",
+  "descripcion": "Las grandes escuelas, c. 1913 – c. 1956",
+  "prefijoRelaciones": "gre",
+  "nodos": [
+    {
+      "id": "contexto.grandes_escuelas",
+      "tipo": "contexto",
+      "nombre": "Las grandes escuelas",
+      "horquilla": {
+        "inicio": 1913,
+        "fin": 1956
+      },
+      "lugar": "Estados Unidos y Europa",
+      "tematicas": [
+        "tematica.aprendizaje",
+        "tematica.percepcion",
+        "tematica.desarrollo"
+      ],
+      "resumen": "La disciplina se divide en escuelas que discrepan sobre qué debe estudiar y cómo. El [[escuela.conductismo|conductismo]], lanzado por el psicólogo estadounidense John B. Watson en 1913, domina en Estados Unidos; en Europa crecen la [[escuela.gestalt|Gestalt]] y el [[escuela.psicoanalisis|psicoanálisis]], mientras el psicólogo suizo Jean Piaget, en Ginebra, y el soviético Lev Vygotski, en Moscú, estudian cómo se desarrolla el pensamiento infantil. La persecución nazi obliga a muchos psicólogos europeos a emigrar a Estados Unidos."
+    }
+  ],
+  "relaciones": []
+}

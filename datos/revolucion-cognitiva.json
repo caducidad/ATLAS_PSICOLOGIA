@@ -1,0 +1,25 @@
+{
+  "version": "0.1",
+  "actualizado": "2026-10-08",
+  "descripcion": "Revolución cognitiva y humanismo, c. 1956 – c. 1980",
+  "prefijoRelaciones": "cog",
+  "nodos": [
+    {
+      "id": "contexto.revolucion_cognitiva",
+      "tipo": "contexto",
+      "nombre": "Revolución cognitiva y humanismo",
+      "horquilla": {
+        "inicio": 1956,
+        "fin": 1980
+      },
+      "lugar": "Sobre todo Estados Unidos",
+      "tematicas": [
+        "tematica.pensamiento",
+        "tematica.psicologia_social",
+        "tematica.desarrollo"
+      ],
+      "resumen": "La mente vuelve al centro de la psicología. Un simposio celebrado en 1956 en el Instituto Tecnológico de Massachusetts (MIT), con trabajos del psicólogo George Miller, el lingüista Noam Chomsky y los investigadores en inteligencia artificial Allen Newell y Herbert Simon, se toma como punto de partida simbólico del [[escuela.cognitivismo|cognitivismo]]. Son también los años de la [[escuela.humanismo|psicología humanista]], de la teoría del apego y de los grandes experimentos de psicología social sobre la obediencia, la conformidad y la ayuda."
+    }
+  ],
+  "relaciones": []
+}
