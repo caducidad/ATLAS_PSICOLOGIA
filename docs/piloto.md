@@ -2,7 +2,7 @@
 
 Borrador 0.1 · 8 de octubre de 2026
 
-Propuesta de contenido para el primer piloto. No depende del esquema base del núcleo: fija qué entra y cómo se organiza; el formato de los datos llegará con `docs/esquema-base.md` de ATLAS_NUCLEO.
+Propuesta de contenido para el primer piloto: fija qué entra y cómo se organiza. El formato de los datos es el de [`docs/esquema-base.md`](https://github.com/caducidad/ATLAS_NUCLEO/blob/main/docs/esquema-base.md) de ATLAS_NUCLEO, ampliado con el `atlas.json` de este atlas. El ejemplo `ejemplos/atlas-minimo/` del núcleo ya declara el tipo `experimento`, las relaciones `pone_a_prueba` y `replica` y la lente de la evidencia.
 
 **Aviso de rigor.** Fechas, cifras y estados de la evidencia de este borrador son una primera propuesta. Cada uno se comprueba en la fuente al redactar la ficha, igual que en el Atlas de la Filosofía.
 
@@ -122,7 +122,9 @@ Fuentes que sostienen los estados más delicados, por comprobar al redactar: ré
 
 ## 7. Estado de la evidencia: escala propuesta
 
-Campo `estadoEvidencia` del nodo (teoría, hallazgo o tesis), distinto de la `certeza` de las relaciones:
+Campo `estadoEvidencia` del nodo (teoría, hallazgo o tesis), distinto de la `certeza` de las relaciones. En el experimento, el campo recoge el estado de su hallazgo principal, como pide el ejemplo del núcleo.
+
+**Diferencia con el núcleo.** El esquema base admite cuatro valores: `consolidado`, `en_debate`, `no_replicado` y `superado`. Esta propuesta añade dos, `matizado` y `desacreditado`, sin los que los casos más instructivos del piloto (Milgram, Asch, el muñeco Bobo, Stanford) quedarían mal clasificados. Como `estadoEvidencia` es un campo común, el cambio se pide al núcleo por el buzón y lo decide Juan; no se redefine solo en este atlas.
 
 | Valor | Significado |
 | --- | --- |
