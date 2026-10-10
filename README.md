@@ -30,6 +30,8 @@ datos/
   contemporanea.json        c. 1980 – hoy
 docs/
   piloto.md                 Contenido del piloto y decisiones tomadas
+  informes/
+    fundacion.md            Informe previo de la primera tanda (1879 – c. 1913)
 ```
 
 ## Validar los datos

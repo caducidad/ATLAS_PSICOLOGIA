@@ -69,7 +69,7 @@ El carril de cada nodo lo decide el **primer** elemento de su lista `escuelas` (
 | Funcionalismo | rótulo historiográfico | Sí | James, Dewey, Angell; más un clima que una escuela |
 | Tradición psicodinámica | rótulo historiográfico | Sí | Paraguas de Freud, Jung, Adler, Anna Freud y Klein |
 | · Psicoanálisis | real | No: va en el carril psicodinámico | Asociación Psicoanalítica Internacional desde 1910 |
-| · Psicología analítica | real | No: va en el carril psicodinámico | Jung, tras su ruptura con Freud (1913) |
+| · Psicología analítica | real | No: va en el carril psicodinámico | Jung, tras su ruptura con Freud (1913–1914) |
 | · Psicología individual | real | No: va en el carril psicodinámico | Adler, tras su ruptura con Freud (1911) |
 | Conductismo | real | Sí | Watson acuñó el nombre (1913); luego el neoconductismo de Skinner, Tolman y Hull |
 | Gestalt | real | Sí | Escuela de Berlín: Wertheimer, Köhler, Koffka |
