@@ -32,6 +32,7 @@ docs/
   piloto.md                 Contenido del piloto y decisiones tomadas
   informes/
     fundacion.md            Informe previo de la primera tanda (1879 – c. 1913)
+    grandes-escuelas.md     Informe previo de la segunda tanda (c. 1913 – c. 1956)
 ```
 
 ## Validar los datos
