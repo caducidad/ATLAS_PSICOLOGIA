@@ -18,6 +18,10 @@
     "regla": "primero",
     "sinValor": "otros"
   },
+  "tema": {
+    "acento": "#c4a8ff",
+    "acentoClaro": "#e6dcff"
+  },
   "camposPropios": {
     "tipoEstudio": {
       "descripcion": "Clase de estudio que recoge una ficha de tipo experimento.",
