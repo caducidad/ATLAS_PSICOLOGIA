@@ -82,7 +82,10 @@
         "diseno",
         "resultado",
         "estadoEvidencia"
-      ]
+      ],
+      "etiqueta": "Experimento",
+      "plural": "experimentos",
+      "forma": "cruz"
     }
   },
   "relaciones": {

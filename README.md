@@ -6,7 +6,7 @@ Mapa interactivo de la historia de la psicología. Autores, escuelas, conceptos,
 
 Forma parte de la colección **Atlas**, junto al [Atlas de la Filosofía](https://github.com/caducidad/ATLAS_FILOSOFIA). Lo común a toda la colección (esquema, validador, motor de la app y reglas de los puentes entre atlas) vive en [ATLAS_NUCLEO](https://github.com/caducidad/ATLAS_NUCLEO).
 
-> Estado: en desarrollo. Hay propuesta de contenido del piloto, configuración del atlas y datos estructurales (14 temáticas, 12 escuelas y 5 periodos), que pasan el validador del núcleo sin errores. Las fichas de autores y experimentos llegan con la fase 1 del piloto.
+> Estado: en desarrollo. Datos estructurales (14 temáticas, 12 escuelas y 5 periodos) y la primera tanda del piloto, **la fundación (1879 – c. 1913)**: 11 autores, 7 obras, 9 conceptos, 9 tesis con su estado de la evidencia, 3 experimentos y 2 grandes preguntas, con 52 relaciones. Todo pasa el validador del núcleo sin errores.
 
 ## Qué tendrá de propio
 

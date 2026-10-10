@@ -1,7 +1,7 @@
 {
   "version": "0.1",
-  "actualizado": "2026-10-08",
-  "descripcion": "La fundación de la psicología como ciencia, 1879 – c. 1913",
+  "actualizado": "2026-10-10",
+  "descripcion": "La fundación de la psicología como ciencia, 1879 – c. 1913. Primera tanda del piloto: canon de autores, obras, conceptos, tesis, experimentos y grandes preguntas.",
   "prefijoRelaciones": "fun",
   "nodos": [
     {
@@ -18,8 +18,1452 @@
         "tematica.aprendizaje",
         "tematica.memoria"
       ],
-      "resumen": "La psicología se separa de la filosofía y de la fisiología como ciencia propia. En 1879 el fisiólogo y filósofo alemán Wilhelm Wundt abre en la Universidad de Leipzig el primer laboratorio dedicado a ella, y en pocas décadas aparecen las primeras leyes de la memoria y del aprendizaje, los primeros tests de inteligencia y el [[escuela.psicoanalisis|psicoanálisis]]."
+      "resumen": "La psicología se separa de la filosofía y de la fisiología como ciencia propia. En 1879 [[autor.wundt|Wilhelm Wundt]] empieza a investigar en el laboratorio de psicología de la Universidad de Leipzig, y en pocas décadas aparecen las primeras leyes de la [[experimento.curva_olvido|memoria]] y del [[experimento.cajas_problema|aprendizaje]], los primeros tests de inteligencia y el [[escuela.psicoanalisis|psicoanálisis]].",
+      "profundizacion": "En apenas treinta y cinco años la nueva disciplina se instala en las universidades. En Alemania, el laboratorio de [[autor.wundt|Wundt]] forma a estudiantes de toda Europa y de Estados Unidos, y [[autor.ebbinghaus|Hermann Ebbinghaus]] demuestra que incluso la memoria puede medirse. En Estados Unidos, [[autor.william_james|William James]] escribe el manual que dará forma a la disciplina, [[autor.stanley_hall|G. Stanley Hall]] funda revistas y asociaciones, y el [[escuela.funcionalismo|funcionalismo]] se pregunta para qué sirve la mente. En Rusia, el fisiólogo [[autor.pavlov|Iván Pávlov]] descubre el [[concepto.reflejo_condicionado|reflejo condicionado]]; en Nueva York, [[autor.thorndike|Edward Thorndike]] mide el aprendizaje de los animales; en París, [[autor.binet|Alfred Binet]] y [[autor.simon|Théodore Simon]] crean la primera escala práctica de inteligencia, y en Viena [[autor.freud|Sigmund Freud]] construye el psicoanálisis. El periodo se cierra hacia 1913, cuando el conductismo de John B. Watson, psicólogo estadounidense, rechaza estudiar la conciencia y abre la época de las grandes escuelas."
+    },
+    {
+      "id": "autor.wundt",
+      "tipo": "autor",
+      "nombre": "Wilhelm Wundt",
+      "alias": [
+        "Wundt",
+        "Wilhelm Maximilian Wundt"
+      ],
+      "circulo": 1,
+      "lugarOrigen": "Neckarau, hoy parte de Mannheim (Alemania)",
+      "contextos": [
+        "contexto.fundacion"
+      ],
+      "tematicas": [
+        "tematica.metodos",
+        "tematica.percepcion",
+        "tematica.atencion_conciencia"
+      ],
+      "escuelas": [
+        "escuela.estructuralismo"
+      ],
+      "fechas": {
+        "nacimiento": {
+          "min": 1832,
+          "max": 1832
+        },
+        "muerte": {
+          "min": 1920,
+          "max": 1920
+        },
+        "tipo": "exacta",
+        "historicidad": "historico",
+        "alternativas": [],
+        "nota": "16 de agosto de 1832 – 31 de agosto de 1920, en Großbothen (Sajonia)."
+      },
+      "resumen": "Fisiólogo y filósofo alemán, considerado el fundador de la psicología como ciencia experimental. En 1879 empezó a investigar en el laboratorio que había montado en la Universidad de Leipzig, el primero dedicado solo a la psicología, y formó allí a buena parte de la primera generación de psicólogos.",
+      "profundizacion": "Wundt se formó como médico y fue ayudante del fisiólogo alemán Hermann von Helmholtz en la Universidad de Heidelberg. En sus [[obra.grundzuge|Grundzüge der physiologischen Psychologie]] (1874) defendió que una parte de la vida mental, la de los procesos más elementales, como las sensaciones o los tiempos de reacción, podía estudiarse con los métodos de la fisiología. En 1875 obtuvo una cátedra de filosofía en Leipzig, y en 1876 la universidad le cedió un local para guardar sus aparatos. Allí empezaron en 1879 los primeros trabajos de investigación, y esa es la fecha que la tradición toma como nacimiento de la psicología científica, aunque la universidad no reconoció oficialmente el laboratorio hasta 1883. Su método no era la introspección corriente, sino una [[concepto.introspeccion_experimental|autoobservación entrenada]] y sometida a control experimental, y solo para los procesos simples. Para los procesos superiores, como el lenguaje, los mitos o las costumbres, creía que hacía falta otro camino, el estudio comparado de las culturas, al que dedicó los diez volúmenes de su «psicología de los pueblos» (Völkerpsychologie, 1900–1920). Por Leipzig pasaron estudiantes de toda Europa y de Estados Unidos, entre ellos [[autor.titchener|Edward Titchener]] y [[autor.stanley_hall|G. Stanley Hall]]. La etiqueta de [[escuela.estructuralismo|estructuralismo]] se la dio después Titchener a su propio programa; aplicarla a Wundt simplifica un pensamiento más amplio.",
+      "anecdotas": "En el prólogo de su gran manual anunció sin falsa modestia que el libro intentaba «delimitar un nuevo dominio de la ciencia» ([[obra.grundzuge|Grundzüge der physiologischen Psychologie]], prólogo de 1874 · A)."
+    },
+    {
+      "id": "autor.william_james",
+      "tipo": "autor",
+      "nombre": "William James",
+      "alias": [
+        "James"
+      ],
+      "circulo": 1,
+      "lugarOrigen": "Nueva York (Estados Unidos)",
+      "contextos": [
+        "contexto.fundacion"
+      ],
+      "tematicas": [
+        "tematica.atencion_conciencia",
+        "tematica.emocion_motivacion",
+        "tematica.aprendizaje"
+      ],
+      "escuelas": [
+        "escuela.funcionalismo"
+      ],
+      "fechas": {
+        "nacimiento": {
+          "min": 1842,
+          "max": 1842
+        },
+        "muerte": {
+          "min": 1910,
+          "max": 1910
+        },
+        "tipo": "exacta",
+        "historicidad": "historico",
+        "alternativas": [],
+        "nota": "11 de enero de 1842 – 26 de agosto de 1910, en Chocorua (Nuevo Hampshire)."
+      },
+      "resumen": "Psicólogo y filósofo estadounidense, profesor en la Universidad de Harvard. Su [[obra.principles|The Principles of Psychology]] (1890) fue el manual que dio forma a la psicología en Estados Unidos, y su interés por saber para qué sirve la mente lo convirtió en la gran referencia del [[escuela.funcionalismo|funcionalismo]].",
+      "profundizacion": "James estudió medicina en Harvard y nunca recibió una formación filosófica reglada. En el curso 1875–1876 impartió allí el primer curso de psicología experimental de Estados Unidos, y en 1878 dirigió la tesis de [[autor.stanley_hall|G. Stanley Hall]], el primer doctorado en psicología del país. Tardó doce años en escribir [[obra.principles|The Principles of Psychology]], dos volúmenes publicados en 1890 que todavía se leen por su prosa. En ellos describe la conciencia como un [[concepto.flujo_conciencia|flujo]] continuo y cambiante, y no como una suma de elementos, lo que le separaba del programa de [[autor.wundt|Wundt]]. Expone también su teoría de que [[tesis.james_lange|la emoción es la percepción de los cambios del cuerpo]], publicada en 1884. Le interesaban el hábito, la atención y la voluntad, y también fenómenos que sus colegas evitaban, como la experiencia religiosa. Con los años se dedicó cada vez más a la filosofía y fue, con el filósofo y lógico Charles Sanders Peirce, uno de los fundadores del pragmatismo, la corriente que juzga las ideas por sus consecuencias prácticas. Entre sus alumnos estuvo [[autor.thorndike|Edward Thorndike]].",
+      "anecdotas": "En 1902 resumió así su carrera: había estudiado medicina para ser fisiólogo, pero derivó hacia la psicología y la filosofía «por una especie de fatalidad», sin formación filosófica alguna, y «la primera clase de psicología que oí fue la primera que di» (carta de 1902, recogida por el filósofo Ralph Barton Perry en The Thought and Character of William James, vol. 1, p. 228 · A). De joven pasó una larga depresión; tras leer al filósofo francés Charles Renouvier anotó en su diario: «Mi primer acto de libre albedrío será creer en el libre albedrío» (diario, 30 de abril de 1870 · A). Como en el laboratorio de Harvard no se admitían animales, dejó que su alumno [[autor.thorndike|Edward Thorndike]] hiciera sus experimentos en el sótano de su casa (memoria biográfica de Thorndike escrita por el psicólogo Robert S. Woodworth para la Academia Nacional de Ciencias de Estados Unidos, 1952 · B)."
+    },
+    {
+      "id": "autor.ebbinghaus",
+      "tipo": "autor",
+      "nombre": "Hermann Ebbinghaus",
+      "alias": [
+        "Ebbinghaus"
+      ],
+      "circulo": 1,
+      "lugarOrigen": "Barmen, hoy parte de Wuppertal (Alemania)",
+      "contextos": [
+        "contexto.fundacion"
+      ],
+      "tematicas": [
+        "tematica.memoria",
+        "tematica.aprendizaje",
+        "tematica.metodos"
+      ],
+      "fechas": {
+        "nacimiento": {
+          "min": 1850,
+          "max": 1850
+        },
+        "muerte": {
+          "min": 1909,
+          "max": 1909
+        },
+        "tipo": "exacta",
+        "historicidad": "historico",
+        "alternativas": [],
+        "nota": "24 de enero de 1850 – 26 de febrero de 1909, en Halle."
+      },
+      "resumen": "Psicólogo alemán que demostró que la memoria, un proceso mental superior, podía estudiarse con experimentos y medirse. Haciendo de sí mismo el único sujeto, describió la [[experimento.curva_olvido|curva del olvido]] en [[obra.uber_gedachtnis|Über das Gedächtnis]] (1885).",
+      "profundizacion": "Ebbinghaus se doctoró en filosofía y se formó por su cuenta en la psicofísica del físico y filósofo alemán Gustav Theodor Fechner, que había medido la relación entre la intensidad de un estímulo y la de la sensación. Quiso aplicar esa misma exactitud a algo que [[autor.wundt|Wundt]] consideraba fuera del alcance del laboratorio: la memoria. Para que el significado de las palabras no interfiriera, inventó las [[concepto.silabas_sin_sentido|sílabas sin sentido]], combinaciones de consonante, vocal y consonante, y para medir lo que se retiene aunque no se recuerde, el [[concepto.metodo_ahorro|método del ahorro]]: cuánto tiempo se ahorra al volver a aprender una lista ya olvidada. Empezó sus experimentos en Berlín en 1879 y publicó los resultados en 1885. Además de la curva del olvido, describió la curva de aprendizaje y la ventaja de repartir el estudio en varias sesiones frente a concentrarlo en una sola. Fue profesor en Berlín, en Breslavia (hoy Wrocław, en Polonia) y en Halle, ideó una de las primeras pruebas de completar frases y escribió manuales de mucho éxito. Murió de una neumonía en 1909.",
+      "anecdotas": "Según la tradición, encontró los Elementos de psicofísica de Fechner en una librería de viejo, y aquel hallazgo casual le decidió a medir la memoria; las fuentes no se ponen de acuerdo en si fue en París, hacia 1875, o en Londres (Encyclopædia Universalis, artículo «Hermann Ebbinghaus» · C). Abrió su manual de 1908 con una frase que repiten casi todas las historias de la disciplina: «La psicología tiene un largo pasado, pero una historia corta» (Abriss der Psychologie, 1908 · A)."
+    },
+    {
+      "id": "autor.pavlov",
+      "tipo": "autor",
+      "nombre": "Iván Pávlov",
+      "nombreOriginal": "Иван Петрович Павлов",
+      "alias": [
+        "Pávlov",
+        "Pavlov",
+        "Ivan Petrovich Pavlov",
+        "Iván Petróvich Pávlov"
+      ],
+      "circulo": 1,
+      "lugarOrigen": "Riazán (Rusia)",
+      "contextos": [
+        "contexto.fundacion",
+        "contexto.grandes_escuelas"
+      ],
+      "tematicas": [
+        "tematica.aprendizaje",
+        "tematica.psicobiologia"
+      ],
+      "fechas": {
+        "nacimiento": {
+          "min": 1849,
+          "max": 1849
+        },
+        "muerte": {
+          "min": 1936,
+          "max": 1936
+        },
+        "tipo": "exacta",
+        "historicidad": "historico",
+        "alternativas": [],
+        "nota": "26 de septiembre de 1849 (14 de septiembre según el calendario juliano, el que usaba entonces Rusia) – 27 de febrero de 1936, en Leningrado, hoy San Petersburgo."
+      },
+      "resumen": "Fisiólogo ruso que, estudiando la digestión de los perros, descubrió el [[concepto.reflejo_condicionado|reflejo condicionado]]: un estímulo neutro que se presenta junto a la comida acaba provocando, él solo, la salivación. Recibió el premio Nobel de Medicina en 1904, pero por sus trabajos sobre la digestión, no por el condicionamiento.",
+      "profundizacion": "Hijo de un sacerdote de Riazán, Pávlov estudió en el seminario y después ciencias naturales y medicina en San Petersburgo. Dirigió durante décadas el departamento de fisiología del Instituto de Medicina Experimental de esa ciudad, un laboratorio grande y muy organizado en el que trabajaban decenas de colaboradores. Sus técnicas quirúrgicas permitían recoger los jugos digestivos de perros vivos y sanos, y así observó que los animales empezaban a salivar antes de recibir la comida, por ejemplo al ver al ayudante que se la traía. Lo que al principio llamó «secreción psíquica» se convirtió hacia 1901 en un programa de investigación sobre los [[concepto.reflejo_condicionado|reflejos condicionados]], que empezó con su ayudante Iván Tolóchinov y que el propio Pávlov presentó en el Congreso Internacional de Medicina de Madrid en 1903. Se veía a sí mismo como un fisiólogo del cerebro, no como un psicólogo, y desconfiaba de la psicología de su tiempo; aun así, el [[escuela.conductismo|conductismo]] estadounidense hizo de su método un modelo. Criticó abiertamente al régimen soviético, que a pesar de ello financió con generosidad su laboratorio.",
+      "anecdotas": "La imagen popular del perro que saliva al oír una campana es más leyenda que historia: según su biógrafo, el historiador Daniel P. Todes, en el laboratorio se usaban sobre todo metrónomos, zumbadores, un armonio y descargas eléctricas, y la campana solo en casos raros y sin importancia (Daniel P. Todes, Ivan Pavlov: A Russian Life in Science, 2014 · B). El psicólogo Roger K. Thomas documentó, con todo, algunos usos de una campana en publicaciones y conferencias del laboratorio (artículo «Correcting Pavloviana», American Journal of Psychology, vol. 110, 1997 · B)."
+    },
+    {
+      "id": "autor.thorndike",
+      "tipo": "autor",
+      "nombre": "Edward L. Thorndike",
+      "alias": [
+        "Thorndike",
+        "Edward Lee Thorndike"
+      ],
+      "circulo": 1,
+      "lugarOrigen": "Williamsburg, Massachusetts (Estados Unidos)",
+      "contextos": [
+        "contexto.fundacion",
+        "contexto.grandes_escuelas"
+      ],
+      "tematicas": [
+        "tematica.aprendizaje",
+        "tematica.metodos",
+        "tematica.inteligencia"
+      ],
+      "escuelas": [
+        "escuela.funcionalismo"
+      ],
+      "fechas": {
+        "nacimiento": {
+          "min": 1874,
+          "max": 1874
+        },
+        "muerte": {
+          "min": 1949,
+          "max": 1949
+        },
+        "tipo": "exacta",
+        "historicidad": "historico",
+        "alternativas": [],
+        "nota": "31 de agosto de 1874 – 9 de agosto de 1949, en Montrose (Nueva York)."
+      },
+      "resumen": "Psicólogo estadounidense que estudió el aprendizaje animal con experimentos controlados. Con sus [[experimento.cajas_problema|cajas problema]] mostró que los gatos aprendían a salir por [[concepto.ensayo_error|ensayo y error]], y de ahí sacó la [[tesis.ley_efecto|ley del efecto]]: lo que trae consecuencias satisfactorias tiende a repetirse.",
+      "profundizacion": "Thorndike estudió en la Universidad Wesleyana y después en Harvard con [[autor.william_james|William James]], y se doctoró en 1898 en la Universidad de Columbia, en Nueva York, con el psicólogo James McKeen Cattell como director. Su tesis, [[obra.animal_intelligence|Animal Intelligence]], sustituyó las anécdotas sobre animales listos, muy frecuentes entonces, por mediciones: cuánto tardaba cada animal en escapar en cada intento. Las curvas bajaban poco a poco, sin saltos repentinos, y ver escapar a otro gato no ayudaba. La idea de que se refuerza la conexión entre una situación y la respuesta que trae satisfacción recibió el nombre de [[tesis.ley_efecto|ley del efecto]] en 1905. Pasó casi toda su carrera en el Teachers College, la facultad de educación de Columbia, donde aplicó la psicología a la enseñanza y a la medida del aprendizaje. Defendió también la eugenesia y opiniones sobre las mujeres y las minorías que hoy se rechazan; por eso, en 2020, el Teachers College retiró su nombre de uno de sus edificios.",
+      "anecdotas": "Como en el laboratorio de Harvard no se admitían animales, hizo sus primeros experimentos en su propio cuarto y después en el sótano de la casa de su profesor [[autor.william_james|William James]] (memoria biográfica de Thorndike escrita por el psicólogo Robert S. Woodworth para la Academia Nacional de Ciencias de Estados Unidos, 1952 · B)."
+    },
+    {
+      "id": "autor.freud",
+      "tipo": "autor",
+      "nombre": "Sigmund Freud",
+      "alias": [
+        "Freud",
+        "Sigismund Schlomo Freud"
+      ],
+      "circulo": 1,
+      "lugarOrigen": "Freiberg, en Moravia, hoy Příbor (Chequia)",
+      "contextos": [
+        "contexto.fundacion",
+        "contexto.grandes_escuelas"
+      ],
+      "tematicas": [
+        "tematica.personalidad",
+        "tematica.psicopatologia",
+        "tematica.psicoterapia"
+      ],
+      "escuelas": [
+        "escuela.tradicion_psicodinamica",
+        "escuela.psicoanalisis"
+      ],
+      "fechas": {
+        "nacimiento": {
+          "min": 1856,
+          "max": 1856
+        },
+        "muerte": {
+          "min": 1939,
+          "max": 1939
+        },
+        "tipo": "exacta",
+        "historicidad": "historico",
+        "alternativas": [],
+        "nota": "6 de mayo de 1856 – 23 de septiembre de 1939, en Londres."
+      },
+      "resumen": "Neurólogo austriaco, creador del [[escuela.psicoanalisis|psicoanálisis]]. Sostuvo que buena parte de la vida mental es [[concepto.inconsciente|inconsciente]] y que deseos y recuerdos reprimidos influyen en los síntomas, los sueños y los actos fallidos. Su influencia en la cultura del siglo XX fue enorme; el valor científico de sus teorías sigue en discusión.",
+      "profundizacion": "Freud nació en una familia judía de Moravia y creció en Viena, donde estudió medicina e investigó en neurología. Una estancia en París con el neurólogo francés Jean-Martin Charcot, que estudiaba la histeria mediante la hipnosis, y su colaboración con el médico [[autor.breuer|Josef Breuer]] le llevaron a publicar con este los [[obra.estudios_histeria|Estudios sobre la histeria]] (1895). Poco a poco sustituyó la hipnosis por la asociación libre: el paciente dice todo lo que le viene a la mente y el analista lo interpreta. En [[obra.interpretacion_suenos|La interpretación de los sueños]], publicada en noviembre de 1899 con fecha de 1900, propuso que [[tesis.suenos_deseos|los sueños expresan de forma disfrazada deseos inconscientes]]. Desde 1902 reunió en su casa a un grupo de discípulos que en 1908 se convirtió en la Sociedad Psicoanalítica de Viena, y en 1910 nació la Asociación Psicoanalítica Internacional. En 1909 dio cinco conferencias en la Universidad Clark, en Estados Unidos, invitado por [[autor.stanley_hall|G. Stanley Hall]]: fue su único viaje a ese país. El médico vienés Alfred Adler, en 1911, y el psiquiatra suizo Carl Gustav Jung, en 1913–1914, rompieron con él y fundaron la [[escuela.psicologia_individual|psicología individual]] y la [[escuela.psicologia_analitica|psicología analítica]]. Tras la anexión de Austria por la Alemania nazi se exilió en Londres en 1938, y allí murió al año siguiente.",
+      "anecdotas": "La expresión «cura por la palabra» (talking cure) no es de Freud ni de Breuer, sino de la paciente de este a la que llamaron Anna O. y que en realidad se llamaba Bertha Pappenheim ([[obra.estudios_histeria|Estudios sobre la histeria]], 1895 · A). Hacia 1884 elogió la cocaína en un artículo y la recomendó para varios usos, entre ellos el tratamiento de la adicción a la morfina (Freud, artículo «Über Coca», 1884 · A)."
+    },
+    {
+      "id": "autor.binet",
+      "tipo": "autor",
+      "nombre": "Alfred Binet",
+      "alias": [
+        "Binet"
+      ],
+      "circulo": 1,
+      "lugarOrigen": "Niza (Francia)",
+      "contextos": [
+        "contexto.fundacion"
+      ],
+      "tematicas": [
+        "tematica.inteligencia",
+        "tematica.desarrollo",
+        "tematica.memoria"
+      ],
+      "fechas": {
+        "nacimiento": {
+          "min": 1857,
+          "max": 1857
+        },
+        "muerte": {
+          "min": 1911,
+          "max": 1911
+        },
+        "tipo": "exacta",
+        "historicidad": "historico",
+        "alternativas": [],
+        "nota": "8 de julio de 1857 – 18 de octubre de 1911, en París."
+      },
+      "resumen": "Psicólogo francés que, con el psiquiatra [[autor.simon|Théodore Simon]], creó en 1905 la primera escala práctica de inteligencia, pensada para detectar qué niños necesitaban ayuda escolar. Advirtió él mismo que su escala no medía la inteligencia como se mide una longitud y que la inteligencia no es una cantidad fija.",
+      "profundizacion": "Binet dejó los estudios de derecho para dedicarse a la psicología, se formó en el hospital de la Salpêtrière de París junto al neurólogo Jean-Martin Charcot y desde 1891 trabajó en el laboratorio de psicología de la Sorbona, que dirigió desde 1895 hasta su muerte. Antes de la escala había estudiado la memoria de los calculadores prodigiosos y de los jugadores de ajedrez que jugaban sin ver el tablero, y la inteligencia de sus dos hijas, en L'Étude expérimentale de l'intelligence (1903). En 1904 una comisión del Ministerio de Instrucción Pública francés le encargó un método para identificar a los niños que no podían seguir la enseñanza ordinaria. Con Simon publicó en 1905 una serie de treinta pruebas de dificultad creciente, la [[obra.escala_binet_simon|escala Binet-Simon]], que revisaron en 1908, cuando introdujeron el [[concepto.edad_mental|nivel o edad mental]], y de nuevo en 1911. Binet desconfiaba de que la escala sirviera para etiquetar a los niños de por vida y creía que la inteligencia podía mejorar con la educación. En Estados Unidos, el psicólogo Lewis Terman la adaptó en 1916 con el nombre de escala Stanford-Binet y la usó con ideas hereditaristas que Binet no compartía.",
+      "anecdotas": "Al presentar su escala avisó de que, «propiamente hablando, no permite medir la inteligencia», porque las cualidades intelectuales no se suman como se suman las longitudes ([[obra.escala_binet_simon|Méthodes nouvelles pour le diagnostic du niveau intellectuel des anormaux]], 1905, en la traducción inglesa de Elizabeth S. Kite, 1916 · A). Contra quienes sostenían que la inteligencia de cada persona es una cantidad fija que no puede aumentar, escribió: «Hay que protestar y reaccionar contra este pesimismo brutal» (Les idées modernes sur les enfants, 1909, p. 141 · A)."
+    },
+    {
+      "id": "autor.titchener",
+      "tipo": "autor",
+      "nombre": "Edward B. Titchener",
+      "alias": [
+        "Titchener",
+        "Edward Bradford Titchener"
+      ],
+      "circulo": 2,
+      "lugarOrigen": "Chichester (Inglaterra)",
+      "contextos": [
+        "contexto.fundacion"
+      ],
+      "tematicas": [
+        "tematica.percepcion",
+        "tematica.atencion_conciencia",
+        "tematica.metodos"
+      ],
+      "escuelas": [
+        "escuela.estructuralismo"
+      ],
+      "fechas": {
+        "nacimiento": {
+          "min": 1867,
+          "max": 1867
+        },
+        "muerte": {
+          "min": 1927,
+          "max": 1927
+        },
+        "tipo": "exacta",
+        "historicidad": "historico",
+        "alternativas": [],
+        "nota": "11 de enero de 1867 – 3 de agosto de 1927, en Ithaca (Nueva York)."
+      },
+      "resumen": "Psicólogo británico, discípulo de [[autor.wundt|Wundt]] en Leipzig, que desde 1892 enseñó en la Universidad Cornell, en Estados Unidos. Llamó [[escuela.estructuralismo|estructuralismo]] a su programa: descomponer la experiencia consciente en sus elementos mediante una [[concepto.introspeccion_experimental|introspección]] muy entrenada. Su primera doctoranda, la psicóloga estadounidense Margaret Floy Washburn, fue en 1894 la primera mujer doctorada en psicología."
+    },
+    {
+      "id": "autor.stanley_hall",
+      "tipo": "autor",
+      "nombre": "G. Stanley Hall",
+      "alias": [
+        "Hall",
+        "Granville Stanley Hall",
+        "Stanley Hall"
+      ],
+      "circulo": 2,
+      "lugarOrigen": "Ashfield, Massachusetts (Estados Unidos)",
+      "contextos": [
+        "contexto.fundacion"
+      ],
+      "tematicas": [
+        "tematica.desarrollo",
+        "tematica.metodos"
+      ],
+      "fechas": {
+        "nacimiento": {
+          "min": 1844,
+          "max": 1844
+        },
+        "muerte": {
+          "min": 1924,
+          "max": 1924
+        },
+        "tipo": "exacta",
+        "historicidad": "historico",
+        "alternativas": [],
+        "nota": "1 de febrero de 1844 – 24 de abril de 1924, en Worcester (Massachusetts)."
+      },
+      "resumen": "Psicólogo estadounidense, primer doctor en psicología de su país (Harvard, 1878, con [[autor.william_james|William James]]). Fundó la American Journal of Psychology (1887), fue el primer presidente de la Asociación Americana de Psicología (1892) y el primer rector de la Universidad Clark, adonde en 1909 invitó a [[autor.freud|Freud]] y al psiquiatra suizo Carl Gustav Jung a dar conferencias."
+    },
+    {
+      "id": "autor.breuer",
+      "tipo": "autor",
+      "nombre": "Josef Breuer",
+      "alias": [
+        "Breuer"
+      ],
+      "circulo": 2,
+      "lugarOrigen": "Viena (Austria)",
+      "contextos": [
+        "contexto.fundacion"
+      ],
+      "tematicas": [
+        "tematica.psicopatologia",
+        "tematica.psicoterapia",
+        "tematica.psicobiologia"
+      ],
+      "fechas": {
+        "nacimiento": {
+          "min": 1842,
+          "max": 1842
+        },
+        "muerte": {
+          "min": 1925,
+          "max": 1925
+        },
+        "tipo": "exacta",
+        "historicidad": "historico",
+        "alternativas": [],
+        "nota": "15 de enero de 1842 – 20 de junio de 1925, en Viena."
+      },
+      "resumen": "Médico y fisiólogo vienés, conocido por sus estudios sobre el control de la respiración y sobre el papel del oído interno en el equilibrio. Su tratamiento de la paciente a la que llamó Anna O., iniciado en 1880, y su colaboración con [[autor.freud|Freud]] en los [[obra.estudios_histeria|Estudios sobre la histeria]] (1895) están en el origen del psicoanálisis."
+    },
+    {
+      "id": "autor.simon",
+      "tipo": "autor",
+      "nombre": "Théodore Simon",
+      "alias": [
+        "Simon",
+        "Theodore Simon"
+      ],
+      "circulo": 2,
+      "lugarOrigen": "Dijon (Francia)",
+      "contextos": [
+        "contexto.fundacion"
+      ],
+      "tematicas": [
+        "tematica.inteligencia",
+        "tematica.desarrollo"
+      ],
+      "fechas": {
+        "nacimiento": {
+          "min": 1872,
+          "max": 1873
+        },
+        "muerte": {
+          "min": 1961,
+          "max": 1961
+        },
+        "tipo": "aproximada",
+        "historicidad": "historico",
+        "alternativas": [],
+        "nota": "Nacido el 10 de julio de 1873 en Dijon según la mayoría de las fuentes; algunas dan 1872. Murió en París en 1961."
+      },
+      "resumen": "Psiquiatra francés que trabajó con [[autor.binet|Alfred Binet]] desde 1899 y firmó con él la [[obra.escala_binet_simon|escala Binet-Simon]] de 1905 y sus revisiones de 1908 y 1911."
+    },
+    {
+      "id": "obra.grundzuge",
+      "tipo": "obra",
+      "nombre": "Grundzüge der physiologischen Psychologie",
+      "alias": [
+        "Principios de psicología fisiológica",
+        "Principles of Physiological Psychology",
+        "Grundzüge"
+      ],
+      "autoria": "autor",
+      "idiomaOriginal": "alemán",
+      "contextos": [
+        "contexto.fundacion"
+      ],
+      "tematicas": [
+        "tematica.metodos",
+        "tematica.percepcion"
+      ],
+      "fechas": {
+        "composicion": {
+          "min": 1874,
+          "max": 1874
+        },
+        "tipo": "exacta",
+        "historicidad": "historico",
+        "alternativas": [],
+        "nota": "Primera edición en 1874; la sexta y última, muy ampliada, en 1908–1911."
+      },
+      "resumen": "Manual de [[autor.wundt|Wundt]] que propuso estudiar los procesos mentales elementales con los métodos de la fisiología. Se considera el primer tratado de psicología experimental; Wundt lo amplió en seis ediciones."
+    },
+    {
+      "id": "obra.uber_gedachtnis",
+      "tipo": "obra",
+      "nombre": "Über das Gedächtnis",
+      "alias": [
+        "Sobre la memoria",
+        "Memory: A Contribution to Experimental Psychology"
+      ],
+      "autoria": "autor",
+      "idiomaOriginal": "alemán",
+      "contextos": [
+        "contexto.fundacion"
+      ],
+      "tematicas": [
+        "tematica.memoria",
+        "tematica.metodos"
+      ],
+      "fechas": {
+        "composicion": {
+          "min": 1885,
+          "max": 1885
+        },
+        "tipo": "exacta",
+        "historicidad": "historico",
+        "alternativas": [],
+        "nota": "Publicada en Leipzig en 1885."
+      },
+      "resumen": "Libro en que [[autor.ebbinghaus|Ebbinghaus]] expuso sus experimentos sobre la memoria con [[concepto.silabas_sin_sentido|sílabas sin sentido]], entre ellos la [[experimento.curva_olvido|curva del olvido]]. Es el primer estudio experimental de un proceso mental superior."
+    },
+    {
+      "id": "obra.principles",
+      "tipo": "obra",
+      "nombre": "The Principles of Psychology",
+      "alias": [
+        "Principios de psicología",
+        "Principles"
+      ],
+      "autoria": "autor",
+      "idiomaOriginal": "inglés",
+      "contextos": [
+        "contexto.fundacion"
+      ],
+      "tematicas": [
+        "tematica.atencion_conciencia",
+        "tematica.emocion_motivacion",
+        "tematica.aprendizaje"
+      ],
+      "fechas": {
+        "composicion": {
+          "min": 1890,
+          "max": 1890
+        },
+        "tipo": "exacta",
+        "historicidad": "historico",
+        "alternativas": [],
+        "nota": "Dos volúmenes, unas 1.200 páginas, fruto de doce años de trabajo."
+      },
+      "resumen": "Manual en dos volúmenes de [[autor.william_james|William James]]. Trata el hábito, la atención, el [[concepto.flujo_conciencia|flujo de la conciencia]], el yo y la emoción con una prosa que lo hizo leerse fuera de la universidad, y fue durante décadas la gran referencia de la psicología en lengua inglesa."
+    },
+    {
+      "id": "obra.animal_intelligence",
+      "tipo": "obra",
+      "nombre": "Animal Intelligence",
+      "alias": [
+        "Animal Intelligence: An Experimental Study of the Associative Processes in Animals",
+        "La inteligencia animal"
+      ],
+      "autoria": "autor",
+      "idiomaOriginal": "inglés",
+      "contextos": [
+        "contexto.fundacion"
+      ],
+      "tematicas": [
+        "tematica.aprendizaje",
+        "tematica.metodos"
+      ],
+      "fechas": {
+        "composicion": {
+          "min": 1898,
+          "max": 1898
+        },
+        "tipo": "exacta",
+        "historicidad": "historico",
+        "alternativas": [],
+        "nota": "Tesis doctoral, publicada como suplemento de la revista Psychological Review (vol. 2, n.º 4). En 1911 Thorndike la reeditó ampliada en forma de libro."
+      },
+      "resumen": "Tesis doctoral de [[autor.thorndike|Thorndike]], en la que describe sus [[experimento.cajas_problema|cajas problema]] y mide el aprendizaje de gatos, perros y pollitos. Se considera uno de los puntos de partida del estudio experimental de la conducta."
+    },
+    {
+      "id": "obra.estudios_histeria",
+      "tipo": "obra",
+      "nombre": "Estudios sobre la histeria",
+      "nombreOriginal": "Studien über Hysterie",
+      "alias": [
+        "Studies on Hysteria"
+      ],
+      "autoria": "autor",
+      "idiomaOriginal": "alemán",
+      "contextos": [
+        "contexto.fundacion"
+      ],
+      "tematicas": [
+        "tematica.psicopatologia",
+        "tematica.psicoterapia"
+      ],
+      "escuelas": [
+        "escuela.tradicion_psicodinamica",
+        "escuela.psicoanalisis"
+      ],
+      "fechas": {
+        "composicion": {
+          "min": 1895,
+          "max": 1895
+        },
+        "tipo": "exacta",
+        "historicidad": "historico",
+        "alternativas": [],
+        "nota": "Publicada en Viena en 1895."
+      },
+      "resumen": "Libro de [[autor.breuer|Josef Breuer]] y [[autor.freud|Sigmund Freud]] sobre el tratamiento de la histeria. Incluye el caso de Anna O. y defiende que los síntomas se alivian cuando el paciente recuerda y expresa las experiencias que los originaron. Se considera el punto de partida del [[escuela.psicoanalisis|psicoanálisis]]."
+    },
+    {
+      "id": "obra.interpretacion_suenos",
+      "tipo": "obra",
+      "nombre": "La interpretación de los sueños",
+      "nombreOriginal": "Die Traumdeutung",
+      "alias": [
+        "Traumdeutung",
+        "The Interpretation of Dreams"
+      ],
+      "autoria": "autor",
+      "idiomaOriginal": "alemán",
+      "contextos": [
+        "contexto.fundacion"
+      ],
+      "tematicas": [
+        "tematica.personalidad",
+        "tematica.psicopatologia"
+      ],
+      "escuelas": [
+        "escuela.tradicion_psicodinamica",
+        "escuela.psicoanalisis"
+      ],
+      "fechas": {
+        "composicion": {
+          "min": 1899,
+          "max": 1899
+        },
+        "tipo": "exacta",
+        "historicidad": "historico",
+        "alternativas": [],
+        "nota": "Publicada el 4 de noviembre de 1899, con fecha de 1900 en la portada."
+      },
+      "resumen": "Obra de [[autor.freud|Freud]] que presenta los sueños como «la vía regia» hacia lo [[concepto.inconsciente|inconsciente]] y propone que [[tesis.suenos_deseos|expresan de forma disfrazada deseos reprimidos]]."
+    },
+    {
+      "id": "obra.escala_binet_simon",
+      "tipo": "obra",
+      "nombre": "Escala Binet-Simon",
+      "alias": [
+        "Méthodes nouvelles pour le diagnostic du niveau intellectuel des anormaux",
+        "test de Binet",
+        "escala métrica de la inteligencia"
+      ],
+      "autoria": "autor",
+      "idiomaOriginal": "francés",
+      "contextos": [
+        "contexto.fundacion"
+      ],
+      "tematicas": [
+        "tematica.inteligencia",
+        "tematica.desarrollo",
+        "tematica.metodos"
+      ],
+      "fechas": {
+        "composicion": {
+          "min": 1905,
+          "max": 1905
+        },
+        "tipo": "exacta",
+        "historicidad": "historico",
+        "alternativas": [],
+        "nota": "Publicada en la revista L'Année psychologique (tomo 11, pp. 191–244); revisada en 1908 y en 1911."
+      },
+      "resumen": "Primera escala práctica de inteligencia, creada por [[autor.binet|Alfred Binet]] y [[autor.simon|Théodore Simon]] para identificar a los niños que necesitaban una enseñanza especial. Ordenaba treinta pruebas por dificultad creciente; la revisión de 1908 introdujo el [[concepto.edad_mental|nivel o edad mental]]."
+    },
+    {
+      "id": "concepto.introspeccion_experimental",
+      "tipo": "concepto",
+      "nombre": "Introspección experimental",
+      "alias": [
+        "introspección",
+        "autoobservación"
+      ],
+      "contextos": [
+        "contexto.fundacion"
+      ],
+      "tematicas": [
+        "tematica.metodos",
+        "tematica.atencion_conciencia"
+      ],
+      "resumen": "Observación de la propia experiencia consciente por parte de observadores entrenados y en condiciones controladas de laboratorio. Fue el método central de [[autor.wundt|Wundt]], solo para los procesos simples, y de [[autor.titchener|Titchener]]. Se distingue de la introspección corriente, en la que cada cual describe libremente lo que siente."
+    },
+    {
+      "id": "concepto.flujo_conciencia",
+      "tipo": "concepto",
+      "nombre": "Flujo de la conciencia",
+      "alias": [
+        "corriente de la conciencia",
+        "stream of consciousness"
+      ],
+      "contextos": [
+        "contexto.fundacion"
+      ],
+      "tematicas": [
+        "tematica.atencion_conciencia"
+      ],
+      "resumen": "Imagen con la que [[autor.william_james|William James]] describió la conciencia: una corriente continua y siempre cambiante, y no una suma de piezas separadas. La expresión pasó después a la literatura como nombre de una técnica narrativa."
+    },
+    {
+      "id": "concepto.silabas_sin_sentido",
+      "tipo": "concepto",
+      "nombre": "Sílabas sin sentido",
+      "alias": [
+        "sílabas sin significado",
+        "trigramas"
+      ],
+      "contextos": [
+        "contexto.fundacion"
+      ],
+      "tematicas": [
+        "tematica.memoria",
+        "tematica.metodos"
+      ],
+      "resumen": "Combinaciones de consonante, vocal y consonante sin significado, como «DAX» o «BOK», que [[autor.ebbinghaus|Ebbinghaus]] inventó para estudiar la memoria sin que interfiriera lo que ya se sabe de las palabras. Más tarde se comprobó que algunas evocan más asociaciones que otras."
+    },
+    {
+      "id": "concepto.metodo_ahorro",
+      "tipo": "concepto",
+      "nombre": "Método del ahorro",
+      "alias": [
+        "método de ahorro",
+        "savings"
+      ],
+      "contextos": [
+        "contexto.fundacion"
+      ],
+      "tematicas": [
+        "tematica.memoria",
+        "tematica.metodos"
+      ],
+      "resumen": "Forma de medir la memoria ideada por [[autor.ebbinghaus|Ebbinghaus]]: se aprende una lista, se espera un tiempo y se vuelve a aprender. Lo que se tarda menos la segunda vez, el «ahorro», muestra que algo se retuvo aunque ya no se pudiera recordar."
+    },
+    {
+      "id": "concepto.reflejo_condicionado",
+      "tipo": "concepto",
+      "nombre": "Reflejo condicionado",
+      "alias": [
+        "reflejo condicional",
+        "condicionamiento clásico",
+        "condicionamiento pavloviano"
+      ],
+      "contextos": [
+        "contexto.fundacion"
+      ],
+      "tematicas": [
+        "tematica.aprendizaje",
+        "tematica.psicobiologia"
+      ],
+      "resumen": "Respuesta que un estímulo provoca solo porque antes se ha presentado una y otra vez junto a otro que la provocaba de forma natural, como la salivación ante un sonido que anunciaba la comida. Lo estudió [[autor.pavlov|Pávlov]]; es la base del condicionamiento clásico."
+    },
+    {
+      "id": "concepto.ensayo_error",
+      "tipo": "concepto",
+      "nombre": "Ensayo y error",
+      "alias": [
+        "prueba y error"
+      ],
+      "contextos": [
+        "contexto.fundacion"
+      ],
+      "tematicas": [
+        "tematica.aprendizaje"
+      ],
+      "resumen": "Aprendizaje en el que se prueban respuestas al azar y se conservan, poco a poco, las que dan resultado. [[autor.thorndike|Thorndike]] lo opuso a la idea de que los animales resuelven los problemas razonando o comprendiéndolos de golpe."
+    },
+    {
+      "id": "concepto.inconsciente",
+      "tipo": "concepto",
+      "nombre": "Inconsciente",
+      "alias": [
+        "lo inconsciente"
+      ],
+      "contextos": [
+        "contexto.fundacion"
+      ],
+      "tematicas": [
+        "tematica.personalidad",
+        "tematica.psicopatologia"
+      ],
+      "resumen": "En el [[escuela.psicoanalisis|psicoanálisis]] de [[autor.freud|Freud]], la parte de la vida mental a la que no se tiene acceso directo y que contiene deseos y recuerdos reprimidos que influyen en la conducta. La psicología actual acepta procesos mentales no conscientes, pero en un sentido mucho más amplio y distinto del freudiano."
+    },
+    {
+      "id": "concepto.represion",
+      "tipo": "concepto",
+      "nombre": "Represión",
+      "alias": [
+        "represión psicológica"
+      ],
+      "contextos": [
+        "contexto.fundacion"
+      ],
+      "tematicas": [
+        "tematica.personalidad",
+        "tematica.psicopatologia"
+      ],
+      "resumen": "Según [[autor.freud|Freud]], el mecanismo por el que la mente aparta de la conciencia los deseos o recuerdos que le resultan inaceptables o dolorosos, sin que por eso dejen de actuar."
+    },
+    {
+      "id": "concepto.edad_mental",
+      "tipo": "concepto",
+      "nombre": "Edad mental",
+      "alias": [
+        "nivel mental"
+      ],
+      "contextos": [
+        "contexto.fundacion"
+      ],
+      "tematicas": [
+        "tematica.inteligencia",
+        "tematica.desarrollo"
+      ],
+      "resumen": "Nivel de rendimiento de un niño expresado como la edad a la que la mayoría de los niños resuelve las mismas pruebas. Procede de la revisión de 1908 de la [[obra.escala_binet_simon|escala Binet-Simon]]."
+    },
+    {
+      "id": "tesis.curva_olvido",
+      "tipo": "tesis",
+      "nombre": "La curva del olvido",
+      "enunciado": "Lo aprendido se olvida muy deprisa al principio y cada vez más despacio después.",
+      "contextos": [
+        "contexto.fundacion"
+      ],
+      "tematicas": [
+        "tematica.memoria"
+      ],
+      "estadoEvidencia": "consolidado",
+      "notaEvidencia": "Replicada en 2015 por Jaap Murre y Joeri Dros, de la Universidad de Ámsterdam, con el mismo método que Ebbinghaus y un resultado muy parecido (PLoS ONE, 10(7), e0120644).",
+      "resumen": "Tesis de [[autor.ebbinghaus|Ebbinghaus]], fruto de su [[experimento.curva_olvido|experimento]] de 1879–1884. Es uno de los hallazgos más antiguos y sólidos de la psicología."
+    },
+    {
+      "id": "tesis.condicionamiento_estimulos",
+      "tipo": "tesis",
+      "nombre": "El condicionamiento clásico",
+      "enunciado": "Un estímulo neutro que se presenta repetidamente junto a otro que provoca una respuesta llega a provocarla por sí solo.",
+      "contextos": [
+        "contexto.fundacion"
+      ],
+      "tematicas": [
+        "tematica.aprendizaje"
+      ],
+      "estadoEvidencia": "consolidado",
+      "notaEvidencia": "Es uno de los fenómenos más reproducidos de la psicología, en muchas especies y con respuestas muy distintas, desde la salivación hasta el miedo.",
+      "resumen": "Tesis central del trabajo de [[autor.pavlov|Pávlov]] sobre el [[concepto.reflejo_condicionado|reflejo condicionado]]. Lo que hoy se discute no es si ocurre, sino qué se aprende exactamente (ver [[tesis.contiguidad]])."
+    },
+    {
+      "id": "tesis.contiguidad",
+      "tipo": "tesis",
+      "nombre": "Basta la coincidencia en el tiempo",
+      "enunciado": "Para que haya condicionamiento basta con que los dos estímulos se presenten juntos en el tiempo.",
+      "contextos": [
+        "contexto.fundacion"
+      ],
+      "tematicas": [
+        "tematica.aprendizaje"
+      ],
+      "estadoEvidencia": "matizado",
+      "notaEvidencia": "El psicólogo estadounidense Robert Rescorla mostró en 1968 que lo decisivo es que un estímulo anuncie al otro (la contingencia), no solo que coincidan (Journal of Comparative and Physiological Psychology, 66(1), 1–5). En 1969 el psicólogo estadounidense Leon Kamin describió el «bloqueo»: un estímulo que no añade información nueva apenas se condiciona aunque coincida con el otro.",
+      "resumen": "Forma clásica de entender el [[concepto.reflejo_condicionado|condicionamiento]], heredera de [[autor.pavlov|Pávlov]]. El fenómeno se mantiene, pero la explicación por simple coincidencia se quedó corta."
+    },
+    {
+      "id": "tesis.ley_efecto",
+      "tipo": "tesis",
+      "nombre": "Ley del efecto",
+      "enunciado": "Las respuestas seguidas de consecuencias satisfactorias tienden a repetirse, y las seguidas de consecuencias molestas, a desaparecer.",
+      "contextos": [
+        "contexto.fundacion"
+      ],
+      "tematicas": [
+        "tematica.aprendizaje"
+      ],
+      "estadoEvidencia": "matizado",
+      "notaEvidencia": "La mitad positiva se mantiene y es la base del condicionamiento operante de B. F. Skinner, psicólogo estadounidense. La mitad negativa la retiró el propio Thorndike hacia 1930, al concluir que el castigo no debilita las respuestas como él había supuesto.",
+      "resumen": "Principio formulado por [[autor.thorndike|Thorndike]] a partir de sus [[experimento.cajas_problema|cajas problema]] (1898) y bautizado con este nombre en 1905."
+    },
+    {
+      "id": "tesis.aprendizaje_gradual",
+      "tipo": "tesis",
+      "nombre": "Los animales aprenden por ensayo y error",
+      "enunciado": "Los animales resuelven los problemas por [[concepto.ensayo_error|ensayo y error]], de forma gradual, y no por comprensión repentina.",
+      "contextos": [
+        "contexto.fundacion"
+      ],
+      "tematicas": [
+        "tematica.aprendizaje",
+        "tematica.pensamiento"
+      ],
+      "estadoEvidencia": "en_debate",
+      "notaEvidencia": "El psicólogo alemán Wolfgang Köhler, de la escuela de la Gestalt, describió en 1917 chimpancés que resolvían problemas de golpe, tras una pausa, lo que llamó comprensión súbita (insight). Hoy se acepta que los animales aprenden de las dos maneras, según la especie y el problema.",
+      "resumen": "Conclusión que [[autor.thorndike|Thorndike]] sacó de sus [[experimento.cajas_problema|cajas problema]], frente a quienes atribuían a los animales razonamientos casi humanos."
+    },
+    {
+      "id": "tesis.introspeccion_metodo",
+      "tipo": "tesis",
+      "nombre": "La introspección como método",
+      "enunciado": "La introspección entrenada es el método propio de la psicología.",
+      "contextos": [
+        "contexto.fundacion"
+      ],
+      "tematicas": [
+        "tematica.metodos",
+        "tematica.atencion_conciencia"
+      ],
+      "escuelas": [
+        "escuela.estructuralismo"
+      ],
+      "estadoEvidencia": "superado",
+      "notaEvidencia": "Entró en crisis hacia 1907 con la polémica del «pensamiento sin imágenes», en la que observadores entrenados de distintos laboratorios no se ponían de acuerdo, y quedó desplazada por el conductismo desde 1913. La psicología actual usa los informes de los participantes, pero como datos que hay que contrastar, no como método principal.",
+      "resumen": "Programa de [[autor.titchener|Titchener]] y, con más reservas, de [[autor.wundt|Wundt]], que la limitaba a los procesos simples. Ver [[concepto.introspeccion_experimental]]."
+    },
+    {
+      "id": "tesis.james_lange",
+      "tipo": "tesis",
+      "nombre": "Teoría de James-Lange",
+      "enunciado": "La emoción es la percepción de los cambios del cuerpo: no lloramos porque estemos tristes, sino que estamos tristes porque lloramos.",
+      "contextos": [
+        "contexto.fundacion"
+      ],
+      "tematicas": [
+        "tematica.emocion_motivacion"
+      ],
+      "escuelas": [
+        "escuela.funcionalismo"
+      ],
+      "estadoEvidencia": "en_debate",
+      "notaEvidencia": "El fisiólogo estadounidense Walter Cannon la criticó en 1927: los mismos cambios corporales acompañan a emociones distintas y llegan demasiado despacio. Las teorías actuales de la emoción conservan parte de la idea, el papel del cuerpo, sin su forma original. Estado pendiente de revisión por un especialista.",
+      "resumen": "Propuesta por [[autor.william_james|William James]] en 1884 en el artículo «What is an emotion?» y, de forma independiente, por el médico danés Carl Lange en 1885."
+    },
+    {
+      "id": "tesis.suenos_deseos",
+      "tipo": "tesis",
+      "nombre": "Los sueños como realización de deseos",
+      "enunciado": "Los sueños expresan de forma disfrazada deseos inconscientes.",
+      "contextos": [
+        "contexto.fundacion"
+      ],
+      "tematicas": [
+        "tematica.personalidad",
+        "tematica.atencion_conciencia"
+      ],
+      "escuelas": [
+        "escuela.tradicion_psicodinamica",
+        "escuela.psicoanalisis"
+      ],
+      "estadoEvidencia": "en_debate",
+      "notaEvidencia": "La investigación del sueño desde los años cincuenta ha propuesto explicaciones muy distintas, y la tesis se considera difícil de poner a prueba tal como Freud la formuló. Estado pendiente de revisión por un especialista: puede que corresponda «superado».",
+      "resumen": "Tesis central de [[obra.interpretacion_suenos|La interpretación de los sueños]] de [[autor.freud|Freud]]."
+    },
+    {
+      "id": "tesis.represion_recuerdos",
+      "tipo": "tesis",
+      "nombre": "La represión de los recuerdos",
+      "enunciado": "Los recuerdos dolorosos pueden apartarse de la conciencia y seguir influyendo en la conducta sin que la persona lo sepa.",
+      "contextos": [
+        "contexto.fundacion"
+      ],
+      "tematicas": [
+        "tematica.memoria",
+        "tematica.psicopatologia"
+      ],
+      "escuelas": [
+        "escuela.tradicion_psicodinamica",
+        "escuela.psicoanalisis"
+      ],
+      "estadoEvidencia": "en_debate",
+      "notaEvidencia": "En los años noventa la idea alimentó el debate sobre los «recuerdos recuperados» en terapia; la investigación de la psicóloga estadounidense Elizabeth Loftus mostró que se pueden crear recuerdos falsos con mucha facilidad. Estado pendiente de revisión por un especialista.",
+      "resumen": "Una de las ideas fundadoras del [[escuela.psicoanalisis|psicoanálisis]], ligada al concepto de [[concepto.represion|represión]] de [[autor.freud|Freud]]."
+    },
+    {
+      "id": "experimento.curva_olvido",
+      "tipo": "experimento",
+      "nombre": "La curva del olvido",
+      "alias": [
+        "curva de Ebbinghaus",
+        "curva del olvido de Ebbinghaus"
+      ],
+      "investigadores": [
+        "autor.ebbinghaus"
+      ],
+      "contextos": [
+        "contexto.fundacion"
+      ],
+      "tematicas": [
+        "tematica.memoria",
+        "tematica.metodos"
+      ],
+      "fechas": {
+        "activo": {
+          "min": 1879,
+          "max": 1884
+        },
+        "tipo": "actividad",
+        "historicidad": "historico",
+        "alternativas": [],
+        "nota": "Dos series de experimentos, en 1879–1880 y en 1883–1884; publicados en 1885."
+      },
+      "tipoEstudio": "experimento",
+      "diseno": "[[autor.ebbinghaus|Ebbinghaus]] fue a la vez investigador y único participante. Aprendía listas de [[concepto.silabas_sin_sentido|sílabas sin sentido]] hasta recitarlas dos veces sin error y, tras un intervalo de entre veinte minutos y un mes, las volvía a aprender, midiendo el tiempo ahorrado ([[concepto.metodo_ahorro|método del ahorro]]).",
+      "resultado": "El olvido es muy rápido al principio: buena parte de lo aprendido se pierde en la primera hora. Después se frena, y al cabo de un día la curva se vuelve casi plana.",
+      "estadoEvidencia": "consolidado",
+      "notaEvidencia": "En 2015 Jaap Murre y Joeri Dros, de la Universidad de Ámsterdam, repitieron el experimento con un solo participante, el mismo método e intervalos parecidos, y obtuvieron una curva muy similar, con una pequeña subida hacia las 24 horas que relacionan con el sueño (PLoS ONE, 10(7), e0120644).",
+      "resumen": "Primer experimento sobre la memoria, publicado en [[obra.uber_gedachtnis|Über das Gedächtnis]] (1885). Mostró que un proceso mental superior podía medirse."
+    },
+    {
+      "id": "experimento.condicionamiento_pavlov",
+      "tipo": "experimento",
+      "nombre": "Los reflejos condicionados de Pávlov",
+      "alias": [
+        "perros de Pávlov",
+        "condicionamiento clásico",
+        "experimento de Pávlov"
+      ],
+      "investigadores": [
+        "autor.pavlov"
+      ],
+      "contextos": [
+        "contexto.fundacion"
+      ],
+      "tematicas": [
+        "tematica.aprendizaje",
+        "tematica.psicobiologia"
+      ],
+      "fechas": {
+        "activo": {
+          "min": 1901,
+          "max": 1903
+        },
+        "tipo": "actividad",
+        "historicidad": "historico",
+        "alternativas": [],
+        "nota": "Primeros estudios sistemáticos, con Iván Tolóchinov; el laboratorio siguió investigando el condicionamiento hasta la muerte de Pávlov en 1936."
+      },
+      "tipoEstudio": "experimento",
+      "diseno": "Perros a los que una pequeña operación permitía recoger y medir la saliva. Antes de darles comida se presentaba un estímulo que por sí solo no provocaba salivación, como el sonido de un metrónomo o un zumbador, y se repetía la combinación muchas veces.",
+      "resultado": "Tras varias repeticiones, el estímulo solo bastaba para que los perros salivaran: se había formado un [[concepto.reflejo_condicionado|reflejo condicionado]]. Si después se presentaba muchas veces sin comida, la respuesta se debilitaba hasta desaparecer.",
+      "estadoEvidencia": "consolidado",
+      "notaEvidencia": "El fenómeno se ha reproducido innumerables veces, en muchas especies y con respuestas muy distintas. Lo que se ha corregido es su explicación (ver [[tesis.contiguidad]]).",
+      "resumen": "Programa de investigación del laboratorio de [[autor.pavlov|Pávlov]] en San Petersburgo, presentado en el Congreso Internacional de Medicina de Madrid de 1903."
+    },
+    {
+      "id": "experimento.cajas_problema",
+      "tipo": "experimento",
+      "nombre": "Las cajas problema de Thorndike",
+      "alias": [
+        "caja problema",
+        "caja de Thorndike",
+        "puzzle box"
+      ],
+      "investigadores": [
+        "autor.thorndike"
+      ],
+      "contextos": [
+        "contexto.fundacion"
+      ],
+      "tematicas": [
+        "tematica.aprendizaje",
+        "tematica.metodos"
+      ],
+      "escuelas": [
+        "escuela.funcionalismo"
+      ],
+      "fechas": {
+        "activo": {
+          "min": 1896,
+          "max": 1898
+        },
+        "tipo": "actividad",
+        "historicidad": "historico",
+        "alternativas": [],
+        "nota": "Primeros experimentos con animales en Harvard, hacia 1896–1897, y con gatos en Columbia, en 1897–1898; publicados en 1898."
+      },
+      "tipoEstudio": "experimento",
+      "diseno": "Gatos hambrientos encerrados en cajas de madera con barrotes, que se abrían tirando de una cuerda, accionando un pestillo o pisando una palanca. Fuera había comida. [[autor.thorndike|Thorndike]] medía cuánto tardaba cada animal en salir en cada intento.",
+      "resultado": "Al principio los gatos se movían al azar y daban con la salida por casualidad. Con los intentos, el tiempo de salida bajaba poco a poco, sin saltos repentinos, y ver escapar a otro gato no les ayudaba a aprender.",
+      "estadoEvidencia": "consolidado",
+      "notaEvidencia": "La curva de aprendizaje gradual se ha reproducido muchas veces. Lo discutido es su interpretación: si todo el aprendizaje animal es así (ver [[tesis.aprendizaje_gradual]]).",
+      "resumen": "Experimento de la tesis doctoral de [[autor.thorndike|Thorndike]], [[obra.animal_intelligence|Animal Intelligence]] (1898), que convirtió el aprendizaje animal en algo medible y dio origen a la [[tesis.ley_efecto|ley del efecto]]."
+    },
+    {
+      "id": "pregunta.medir_mente",
+      "tipo": "pregunta",
+      "nombre": "¿Se puede medir la mente?",
+      "enunciado": "¿Pueden los procesos mentales medirse con la misma exactitud que los fenómenos físicos?",
+      "contextos": [
+        "contexto.fundacion"
+      ],
+      "tematicas": [
+        "tematica.metodos",
+        "tematica.inteligencia",
+        "tematica.memoria"
+      ],
+      "resumen": "La pregunta con la que nace la psicología científica. [[autor.wundt|Wundt]] creía que solo podían medirse los procesos más simples; [[autor.ebbinghaus|Ebbinghaus]] midió la memoria, y [[autor.binet|Binet]] ordenó la inteligencia en una escala, advirtiendo a la vez de que eso no era medirla como se mide una longitud."
+    },
+    {
+      "id": "pregunta.mente_desde_dentro",
+      "tipo": "pregunta",
+      "nombre": "¿Se puede estudiar la mente desde dentro?",
+      "enunciado": "¿Es fiable observar la propia mente para conocer cómo funciona?",
+      "contextos": [
+        "contexto.fundacion"
+      ],
+      "tematicas": [
+        "tematica.metodos",
+        "tematica.atencion_conciencia"
+      ],
+      "resumen": "La primera psicología experimental confió en la [[concepto.introspeccion_experimental|introspección]] entrenada. Su crisis, a comienzos del siglo XX, llevó al conductismo a estudiar solo la conducta observable, y la psicología cognitiva buscaría después un camino intermedio."
     }
   ],
-  "relaciones": []
+  "relaciones": [
+    {
+      "id": "fun-0001",
+      "origen": "autor.wundt",
+      "tipo": "escribio",
+      "destino": "obra.grundzuge",
+      "certeza": "D"
+    },
+    {
+      "id": "fun-0002",
+      "origen": "autor.ebbinghaus",
+      "tipo": "escribio",
+      "destino": "obra.uber_gedachtnis",
+      "certeza": "D"
+    },
+    {
+      "id": "fun-0003",
+      "origen": "autor.william_james",
+      "tipo": "escribio",
+      "destino": "obra.principles",
+      "certeza": "D"
+    },
+    {
+      "id": "fun-0004",
+      "origen": "autor.thorndike",
+      "tipo": "escribio",
+      "destino": "obra.animal_intelligence",
+      "certeza": "D"
+    },
+    {
+      "id": "fun-0005",
+      "origen": "autor.breuer",
+      "tipo": "escribio",
+      "destino": "obra.estudios_histeria",
+      "certeza": "D"
+    },
+    {
+      "id": "fun-0006",
+      "origen": "autor.freud",
+      "tipo": "escribio",
+      "destino": "obra.estudios_histeria",
+      "certeza": "D"
+    },
+    {
+      "id": "fun-0007",
+      "origen": "autor.freud",
+      "tipo": "escribio",
+      "destino": "obra.interpretacion_suenos",
+      "certeza": "D"
+    },
+    {
+      "id": "fun-0008",
+      "origen": "autor.binet",
+      "tipo": "escribio",
+      "destino": "obra.escala_binet_simon",
+      "certeza": "D"
+    },
+    {
+      "id": "fun-0009",
+      "origen": "autor.simon",
+      "tipo": "escribio",
+      "destino": "obra.escala_binet_simon",
+      "certeza": "D"
+    },
+    {
+      "id": "fun-0010",
+      "origen": "autor.wundt",
+      "tipo": "fue_maestro_de",
+      "destino": "autor.titchener",
+      "certeza": "D",
+      "nota": "Titchener se doctoró con Wundt en Leipzig en 1892."
+    },
+    {
+      "id": "fun-0011",
+      "origen": "autor.william_james",
+      "tipo": "fue_maestro_de",
+      "destino": "autor.stanley_hall",
+      "certeza": "D",
+      "nota": "James dirigió en Harvard la tesis de Hall (1878), el primer doctorado en psicología de Estados Unidos."
+    },
+    {
+      "id": "fun-0012",
+      "origen": "autor.william_james",
+      "tipo": "fue_maestro_de",
+      "destino": "autor.thorndike",
+      "certeza": "D",
+      "nota": "Thorndike estudió con James en Harvard antes de doctorarse en Columbia."
+    },
+    {
+      "id": "fun-0013",
+      "origen": "autor.breuer",
+      "tipo": "influyo_en",
+      "destino": "autor.freud",
+      "certeza": "D",
+      "fuente": "Estudios sobre la histeria, 1895",
+      "nota": "El tratamiento de Anna O. y el método catártico de Breuer son el punto de partida de Freud."
+    },
+    {
+      "id": "fun-0014",
+      "origen": "autor.pavlov",
+      "tipo": "influyo_en",
+      "destino": "escuela.conductismo",
+      "certeza": "D",
+      "nota": "El conductismo estadounidense adoptó el condicionamiento de Pávlov como modelo de aprendizaje."
+    },
+    {
+      "id": "fun-0015",
+      "origen": "autor.thorndike",
+      "tipo": "influyo_en",
+      "destino": "escuela.conductismo",
+      "certeza": "D",
+      "nota": "Sus experimentos con animales y la ley del efecto prepararon el conductismo."
+    },
+    {
+      "id": "fun-0016",
+      "origen": "autor.william_james",
+      "tipo": "critica",
+      "destino": "autor.wundt",
+      "certeza": "P",
+      "nota": "James rechazaba descomponer la conciencia en elementos y la describía como un flujo continuo."
+    },
+    {
+      "id": "fun-0017",
+      "origen": "autor.ebbinghaus",
+      "tipo": "defiende",
+      "destino": "tesis.curva_olvido",
+      "certeza": "D"
+    },
+    {
+      "id": "fun-0018",
+      "origen": "autor.pavlov",
+      "tipo": "defiende",
+      "destino": "tesis.condicionamiento_estimulos",
+      "certeza": "D"
+    },
+    {
+      "id": "fun-0019",
+      "origen": "autor.pavlov",
+      "tipo": "defiende",
+      "destino": "tesis.contiguidad",
+      "certeza": "P"
+    },
+    {
+      "id": "fun-0020",
+      "origen": "autor.thorndike",
+      "tipo": "defiende",
+      "destino": "tesis.ley_efecto",
+      "certeza": "D"
+    },
+    {
+      "id": "fun-0021",
+      "origen": "autor.thorndike",
+      "tipo": "defiende",
+      "destino": "tesis.aprendizaje_gradual",
+      "certeza": "D"
+    },
+    {
+      "id": "fun-0022",
+      "origen": "autor.titchener",
+      "tipo": "defiende",
+      "destino": "tesis.introspeccion_metodo",
+      "certeza": "D"
+    },
+    {
+      "id": "fun-0023",
+      "origen": "autor.wundt",
+      "tipo": "defiende",
+      "destino": "tesis.introspeccion_metodo",
+      "certeza": "P",
+      "nota": "Solo para los procesos mentales simples; para los superiores proponía el estudio comparado de las culturas."
+    },
+    {
+      "id": "fun-0024",
+      "origen": "autor.william_james",
+      "tipo": "defiende",
+      "destino": "tesis.james_lange",
+      "certeza": "D"
+    },
+    {
+      "id": "fun-0025",
+      "origen": "autor.freud",
+      "tipo": "defiende",
+      "destino": "tesis.suenos_deseos",
+      "certeza": "D"
+    },
+    {
+      "id": "fun-0026",
+      "origen": "autor.freud",
+      "tipo": "defiende",
+      "destino": "tesis.represion_recuerdos",
+      "certeza": "D"
+    },
+    {
+      "id": "fun-0027",
+      "origen": "experimento.curva_olvido",
+      "tipo": "pone_a_prueba",
+      "destino": "tesis.curva_olvido",
+      "certeza": "D",
+      "sentido": "apoya"
+    },
+    {
+      "id": "fun-0028",
+      "origen": "experimento.condicionamiento_pavlov",
+      "tipo": "pone_a_prueba",
+      "destino": "tesis.condicionamiento_estimulos",
+      "certeza": "D",
+      "sentido": "apoya"
+    },
+    {
+      "id": "fun-0029",
+      "origen": "experimento.cajas_problema",
+      "tipo": "pone_a_prueba",
+      "destino": "tesis.ley_efecto",
+      "certeza": "D",
+      "sentido": "apoya"
+    },
+    {
+      "id": "fun-0030",
+      "origen": "experimento.cajas_problema",
+      "tipo": "pone_a_prueba",
+      "destino": "tesis.aprendizaje_gradual",
+      "certeza": "D",
+      "sentido": "apoya"
+    },
+    {
+      "id": "fun-0031",
+      "origen": "obra.grundzuge",
+      "tipo": "trata_sobre",
+      "destino": "concepto.introspeccion_experimental",
+      "certeza": "D"
+    },
+    {
+      "id": "fun-0032",
+      "origen": "obra.uber_gedachtnis",
+      "tipo": "trata_sobre",
+      "destino": "concepto.silabas_sin_sentido",
+      "certeza": "D"
+    },
+    {
+      "id": "fun-0033",
+      "origen": "obra.uber_gedachtnis",
+      "tipo": "trata_sobre",
+      "destino": "concepto.metodo_ahorro",
+      "certeza": "D"
+    },
+    {
+      "id": "fun-0034",
+      "origen": "obra.uber_gedachtnis",
+      "tipo": "trata_sobre",
+      "destino": "tesis.curva_olvido",
+      "certeza": "D"
+    },
+    {
+      "id": "fun-0035",
+      "origen": "obra.principles",
+      "tipo": "trata_sobre",
+      "destino": "concepto.flujo_conciencia",
+      "certeza": "D"
+    },
+    {
+      "id": "fun-0036",
+      "origen": "obra.principles",
+      "tipo": "trata_sobre",
+      "destino": "tesis.james_lange",
+      "certeza": "D"
+    },
+    {
+      "id": "fun-0037",
+      "origen": "obra.animal_intelligence",
+      "tipo": "trata_sobre",
+      "destino": "concepto.ensayo_error",
+      "certeza": "D"
+    },
+    {
+      "id": "fun-0038",
+      "origen": "obra.animal_intelligence",
+      "tipo": "trata_sobre",
+      "destino": "tesis.aprendizaje_gradual",
+      "certeza": "D"
+    },
+    {
+      "id": "fun-0039",
+      "origen": "obra.estudios_histeria",
+      "tipo": "trata_sobre",
+      "destino": "concepto.represion",
+      "certeza": "D"
+    },
+    {
+      "id": "fun-0040",
+      "origen": "obra.interpretacion_suenos",
+      "tipo": "trata_sobre",
+      "destino": "concepto.inconsciente",
+      "certeza": "D"
+    },
+    {
+      "id": "fun-0041",
+      "origen": "obra.interpretacion_suenos",
+      "tipo": "trata_sobre",
+      "destino": "tesis.suenos_deseos",
+      "certeza": "D"
+    },
+    {
+      "id": "fun-0042",
+      "origen": "obra.escala_binet_simon",
+      "tipo": "trata_sobre",
+      "destino": "concepto.edad_mental",
+      "certeza": "D"
+    },
+    {
+      "id": "fun-0043",
+      "origen": "tesis.condicionamiento_estimulos",
+      "tipo": "trata_sobre",
+      "destino": "concepto.reflejo_condicionado",
+      "certeza": "D"
+    },
+    {
+      "id": "fun-0044",
+      "origen": "tesis.contiguidad",
+      "tipo": "trata_sobre",
+      "destino": "concepto.reflejo_condicionado",
+      "certeza": "D"
+    },
+    {
+      "id": "fun-0045",
+      "origen": "tesis.introspeccion_metodo",
+      "tipo": "trata_sobre",
+      "destino": "concepto.introspeccion_experimental",
+      "certeza": "D"
+    },
+    {
+      "id": "fun-0046",
+      "origen": "tesis.represion_recuerdos",
+      "tipo": "trata_sobre",
+      "destino": "concepto.represion",
+      "certeza": "D"
+    },
+    {
+      "id": "fun-0047",
+      "origen": "tesis.represion_recuerdos",
+      "tipo": "trata_sobre",
+      "destino": "concepto.inconsciente",
+      "certeza": "D"
+    },
+    {
+      "id": "fun-0048",
+      "origen": "obra.grundzuge",
+      "tipo": "responde_a",
+      "destino": "pregunta.medir_mente",
+      "certeza": "D",
+      "nota": "Sí, pero solo los procesos mentales más simples."
+    },
+    {
+      "id": "fun-0049",
+      "origen": "obra.uber_gedachtnis",
+      "tipo": "responde_a",
+      "destino": "pregunta.medir_mente",
+      "certeza": "D",
+      "nota": "Sí, incluso un proceso superior como la memoria."
+    },
+    {
+      "id": "fun-0050",
+      "origen": "obra.escala_binet_simon",
+      "tipo": "responde_a",
+      "destino": "pregunta.medir_mente",
+      "certeza": "D",
+      "nota": "Se puede ordenar, pero no medir como una longitud, según el propio Binet."
+    },
+    {
+      "id": "fun-0051",
+      "origen": "tesis.introspeccion_metodo",
+      "tipo": "responde_a",
+      "destino": "pregunta.mente_desde_dentro",
+      "certeza": "D",
+      "nota": "Sí, con observadores entrenados y en condiciones controladas."
+    },
+    {
+      "id": "fun-0052",
+      "origen": "concepto.flujo_conciencia",
+      "tipo": "responde_a",
+      "destino": "pregunta.mente_desde_dentro",
+      "certeza": "P",
+      "nota": "James confiaba en la observación de la propia mente, pero no en descomponerla en elementos."
+    }
+  ]
 }

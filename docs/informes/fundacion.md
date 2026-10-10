@@ -1,8 +1,8 @@
 # Informe previo · La fundación (1879 – c. 1913)
 
-Versión 0.1 · 10 de octubre de 2026 · para revisión de Juan
+Versión 0.2 · 10 de octubre de 2026 · revisado por Juan; tanda redactada en `datos/fundacion.json`
 
-Primer paso del procedimiento de redacción del núcleo ([`docs/redaccion.md`](https://github.com/caducidad/ATLAS_NUCLEO/blob/main/docs/redaccion.md)): qué entra en la primera tanda, qué fechas y fuentes se han comprobado, qué debates hay y qué falta por verificar. **Todavía no hay fichas:** se redactan cuando este informe esté revisado.
+Primer paso del procedimiento de redacción del núcleo ([`docs/redaccion.md`](https://github.com/caducidad/ATLAS_NUCLEO/blob/main/docs/redaccion.md)): qué entra en la primera tanda, qué fechas y fuentes se han comprobado, qué debates hay y qué falta por verificar. Juan revisó este informe el 10 de octubre y la tanda ya está redactada.
 
 **Cómo leer las marcas.** ✔ comprobado en al menos dos fuentes o en la fuente original · ◐ una sola fuente, o fuentes que discrepan · ✘ sin comprobar todavía. Lo marcado con ◐ o ✘ no entra en una ficha tal cual: se verifica antes o se dice en la ficha que es dudoso.
 
@@ -133,15 +133,30 @@ Escala del esquema base: **A** fuente contemporánea de los hechos · **B** fuen
 - **Filosofía.** William James (pragmatismo) y Wundt también fueron filósofos. Propuesta de atlas «de casa»: **psicología** para los dos, con un puente desde filosofía cuando ese atlas llegue al siglo XIX. Lo decide Juan.
 - **Antropología y sociología.** La *Völkerpsychologie* de Wundt (1900–1920) y *Tótem y tabú* de Freud (1913) son puentes evidentes para cuando existan esos atlas.
 
-## 7. Decisiones que necesito de Juan
+## 7. Decisiones de Juan (10 de octubre de 2026)
 
-1. ¿Atlas «de casa» de William James y de Wundt: psicología?
-2. ¿Está bien tratar la escala Binet-Simon como obra y no como experimento?
-3. ¿Entran las tesis freudianas en esta tanda, aunque su estado necesite un especialista, o se dejan para cuando haya uno? Mi propuesta: entran, marcadas como pendientes de revisión.
+1. William James y Wundt viven en el Atlas de la Psicología; el de Filosofía los referenciará con un puente.
+2. La escala Binet-Simon es una obra, no un experimento.
+3. Las tesis freudianas entran en esta tanda, con su estado marcado como pendiente de revisión por un especialista.
 
-## 8. Lo que queda por verificar antes de redactar
+## 8. Verificaciones hechas antes de redactar
 
-Las marcas ✘ y ◐ de este informe. Las más importantes: el tomo de la escala Binet-Simon en Persée, las referencias de Rescorla (1968) y Kamin (1969) con DOI, la autobiografía de Thorndike (1936), la cita de Ebbinghaus de 1908, los nombres de las hijas de Binet y las fechas del círculo 2.
+| Dato | Resultado |
+| --- | --- |
+| Rescorla (1968) | ✔ «Probability of shock in the presence and absence of CS in fear conditioning». *Journal of Comparative and Physiological Psychology*, 66(1), 1–5 |
+| Kamin (1969) | ◐ Capítulo «Predictability, surprise, attention, and conditioning», en Campbell y Church (eds.), *Punishment and Aversive Behavior*. Se cita sin páginas hasta comprobarlo |
+| Cita de Ebbinghaus de 1908 | ◐ Una fuente la atribuye a su manual de 1908 (*Abriss der Psychologie*). Falta ver la frase alemana en el original |
+| Titchener | ✔ 11 ene. 1867, Chichester – 3 ago. 1927, Ithaca. Doctorado con Wundt en 1892 y Cornell desde ese mismo año |
+| Théodore Simon | ◐ 10 jul. 1873, Dijon – 4 sep. 1961, París, según Wikipedia; otras fuentes dan 1872. La ficha guarda la horquilla 1872–1873 |
+| Josef Breuer | ✔ 15 ene. 1842, Viena – 20 jun. 1925, Viena (Britannica) |
+| Hijas de Binet | ◐ Wikipedia: Marguerite (1885) y Alice (1887). La ficha no da nombres hasta comprobarlo en el libro de 1903 |
+| Tomo de la escala Binet-Simon | ◐ Dos fuentes dan el 11 y una el 12. La ficha usa el 11, pendiente de Persée |
+
+**Lo que no ha entrado en las fichas por no estar comprobado:** la anécdota de Pávlov dictando sus sensaciones al morir, la de la «pata trasera de una rana» y la tirada de *La interpretación de los sueños* (600 ejemplares).
+
+## 9. Fichas que pide la regla 1 para las próximas tandas
+
+Nombres que ya aparecen en varias fichas y merecen ficha propia: Jung y Adler (en las grandes escuelas); Jean-Martin Charcot, Charles Darwin y Gustav Theodor Fechner (en los precursores); John B. Watson (en las grandes escuelas). Mientras tanto se explican en la misma frase.
 
 ## Fuentes consultadas
 
